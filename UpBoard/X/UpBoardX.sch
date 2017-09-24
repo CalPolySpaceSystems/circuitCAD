@@ -19929,6 +19929,18 @@ Source: http://www.onsemi.com/pub/Collateral/MC34164-D.PDF</description>
 <wire x1="-185.42" y1="220.98" x2="-20.32" y2="220.98" width="0.1524" layer="90"/>
 <text x="53.34" y="205.74" size="10.16" layer="90">UPBOARD X</text>
 <text x="-139.7" y="208.28" size="6.4516" layer="90">SENSOR PACKAGE</text>
+<circle x="-83.82" y="38.1" radius="16.263934375" width="0.1524" layer="101"/>
+<circle x="-121.92" y="66.04" radius="16.06436875" width="0.1524" layer="101"/>
+<circle x="-144.78" y="40.64" radius="7.62" width="0.1524" layer="101"/>
+<circle x="180.34" y="165.1" radius="32.52786875" width="0.1524" layer="101"/>
+<circle x="116.84" y="152.4" radius="19.3440625" width="0.1524" layer="101"/>
+<circle x="-22.86" y="55.88" radius="3.5921" width="0.1524" layer="101"/>
+<circle x="-43.18" y="45.72" radius="44.359190625" width="0.1524" layer="101"/>
+<circle x="-40.64" y="-33.02" radius="5.6796125" width="0.1524" layer="101"/>
+<circle x="297.18" y="-76.2" radius="28.960453125" width="0.1524" layer="101"/>
+<circle x="20.32" y="129.54" radius="11.359225" width="0.1524" layer="101"/>
+<circle x="208.28" y="71.12" radius="22.71845" width="0.1524" layer="101"/>
+<text x="259.08" y="73.66" size="1.778" layer="101">Pull Down Signals</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="109.22" y="15.24" smashed="yes">
@@ -20379,7 +20391,7 @@ Source: http://www.onsemi.com/pub/Collateral/MC34164-D.PDF</description>
 <junction x="177.8" y="-71.12"/>
 <pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="-76.2" x2="190.5" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="-68.58" x2="167.64" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-68.58" x2="170.18" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="177.8" y="-68.58"/>
 <label x="170.18" y="-68.58" size="1.778" layer="95"/>
 </segment>
@@ -22242,6 +22254,7 @@ Source: http://www.onsemi.com/pub/Collateral/MC34164-D.PDF</description>
 <label x="-83.82" y="50.8" size="1.778" layer="95"/>
 <wire x1="-76.2" y1="50.8" x2="-83.82" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="CN4" gate="G$1" pin="2"/>
+<junction x="-66.04" y="50.8"/>
 </segment>
 <segment>
 <wire x1="109.22" y1="139.7" x2="104.14" y2="139.7" width="0.1524" layer="91"/>
