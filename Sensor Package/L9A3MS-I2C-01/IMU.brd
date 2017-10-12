@@ -81,6 +81,14 @@
 <text x="36.957" y="9.525" size="1.778" layer="25">X</text>
 <wire x1="41.529" y1="10.414" x2="38.227" y2="10.414" width="0.1524" layer="25"/>
 <wire x1="41.91" y1="11.684" x2="41.91" y2="13.97" width="0.1524" layer="25"/>
+<text x="41.275" y="14.986" size="1.27" layer="26" font="vector" rot="MR0">Designed by:
+Joshua Anderson</text>
+<text x="41.148" y="21.082" size="1.4224" layer="26" font="vector" rot="MR0">Cal Poly Space Systems
+L3A9MS-I2C-01</text>
+<text x="17.78" y="21.59" size="0.8128" layer="25" font="vector">IC1</text>
+<text x="24.765" y="16.383" size="0.8128" layer="25" font="vector">IC2</text>
+<text x="32.512" y="22.987" size="0.8128" layer="25" font="vector">IC3</text>
+<text x="25.273" y="9.398" size="0.8128" layer="26" font="vector" rot="MR0">XA1</text>
 </plain>
 <libraries>
 <library name="resistor" urn="urn:adsk.eagle:library:348">
@@ -1222,14 +1230,14 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <hole x="18.54" y="3.58" drill="0.5"/>
 <smd name="TAC1" x="11.44" y="5.08" dx="0.5" dy="1.5" layer="16"/>
 <smd name="TAC2" x="19.04" y="5.08" dx="0.5" dy="1.5" layer="16"/>
-<wire x1="12.34" y1="6.28" x2="12.34" y2="3.88" width="0.127" layer="21"/>
-<wire x1="12.34" y1="3.88" x2="18.14" y2="3.88" width="0.127" layer="21"/>
-<wire x1="18.14" y1="3.88" x2="18.14" y2="6.28" width="0.127" layer="21"/>
-<wire x1="18.14" y1="6.28" x2="12.34" y2="6.28" width="0.127" layer="21"/>
-<wire x1="18.79" y1="6.88" x2="11.69" y2="6.88" width="0.127" layer="21"/>
-<wire x1="11.69" y1="6.88" x2="11.69" y2="3.28" width="0.127" layer="21"/>
-<wire x1="11.69" y1="3.28" x2="18.79" y2="3.28" width="0.127" layer="21"/>
-<wire x1="18.79" y1="3.28" x2="18.79" y2="6.88" width="0.127" layer="21"/>
+<wire x1="18.14" y1="6.28" x2="18.14" y2="3.88" width="0.127" layer="22"/>
+<wire x1="18.14" y1="3.88" x2="12.34" y2="3.88" width="0.127" layer="22"/>
+<wire x1="12.34" y1="3.88" x2="12.34" y2="6.28" width="0.127" layer="22"/>
+<wire x1="12.34" y1="6.28" x2="18.14" y2="6.28" width="0.127" layer="22"/>
+<wire x1="11.69" y1="6.88" x2="18.79" y2="6.88" width="0.127" layer="22"/>
+<wire x1="18.79" y1="6.88" x2="18.79" y2="3.28" width="0.127" layer="22"/>
+<wire x1="18.79" y1="3.28" x2="11.69" y2="3.28" width="0.127" layer="22"/>
+<wire x1="11.69" y1="3.28" x2="11.69" y2="6.88" width="0.127" layer="22"/>
 <rectangle x1="11.69" y1="3.28" x2="18.79" y2="6.88" layer="42"/>
 <hole x="5.08" y="3.81" drill="3.2"/>
 <hole x="33.02" y="21.59" drill="3.2"/>
@@ -1289,7 +1297,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </polygon>
 <text x="11.43" y="7.62" size="0.6096" layer="22" rot="MR0">1</text>
 <text x="11.43" y="1.27" size="0.6096" layer="22" rot="MR0">20</text>
-<rectangle x1="12.319" y1="3.937" x2="18.161" y2="6.223" layer="21"/>
+<rectangle x1="12.319" y1="3.937" x2="18.161" y2="6.223" layer="22" rot="R180"/>
 </package>
 </packages>
 </library>
@@ -1598,51 +1606,50 @@ Please make sure your boards conform to these design rules.</description>
 </autorouter>
 <elements>
 <element name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100 nF" x="27.559" y="13.97" smashed="yes" rot="R90">
-<attribute name="NAME" x="26.543" y="10.922" size="1.27" layer="25"/>
+<attribute name="NAME" x="26.543" y="10.922" size="0.8128" layer="25"/>
 </element>
 <element name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100 nF" x="25.527" y="25.527" smashed="yes" rot="R270">
-<attribute name="NAME" x="24.384" y="27.305" size="1.27" layer="25"/>
+<attribute name="NAME" x="24.892" y="27.305" size="0.8128" layer="25"/>
 </element>
 <element name="C3" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10 uF" x="20.32" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="19.177" y="27.305" size="1.27" layer="25"/>
+<attribute name="NAME" x="19.685" y="27.305" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="18.415" y="26.035" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C4" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10 nF" x="21.59" y="19.05" smashed="yes" rot="R270">
-<attribute name="NAME" x="20.574" y="20.955" size="1.27" layer="25"/>
+<attribute name="NAME" x="20.955" y="20.828" size="0.8128" layer="25"/>
 </element>
 <element name="C5" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100 nF" x="22.733" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="21.59" y="27.305" size="1.27" layer="25"/>
+<attribute name="NAME" x="22.098" y="27.305" size="0.8128" layer="25"/>
 </element>
 <element name="C6" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100 nF" x="27.94" y="25.527" smashed="yes" rot="R270">
-<attribute name="NAME" x="27.051" y="27.305" size="1.27" layer="25"/>
+<attribute name="NAME" x="27.178" y="27.305" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="26.035" y="26.162" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U$1" library="IMUPACKAGE" package="DF12-RECEPT" value="DF12-20PIN_CONNECTOR_RECEPT" x="6.35" y="7.62"/>
 <element name="MS5611" library="UpBoard" package="MS5611-01BA03" value="MS5611-01BA03" x="31.369" y="19.939" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.814" y="24.511" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="34.544" y="23.749" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="A3G4250D" library="CPSS_SENSOR" package="LGA-16" value="A3G4250D" x="16.002" y="19.177" smashed="yes">
 <attribute name="VALUE" x="13.002" y="15.177" size="1.27" layer="27"/>
 </element>
 <element name="C7" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10 nF" x="17.907" y="25.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="16.764" y="27.305" size="1.27" layer="25"/>
+<attribute name="NAME" x="17.272" y="27.305" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="16.002" y="26.035" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" package="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10 kOhm" x="15.494" y="25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="16.764" y="28.575" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="16.129" y="28.067" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="17.399" y="24.765" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C8" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="470 nF" x="13.208" y="25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.224" y="28.575" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="13.843" y="28.067" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="15.113" y="24.765" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100 nF" x="10.922" y="21.971" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.509" y="22.606" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="10.16" y="19.177" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="9.017" y="22.606" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C10" library="resistor" library_urn="urn:adsk.eagle:library:348" package="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10 uF" x="10.922" y="25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.811" y="28.575" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="11.938" y="28.067" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="12.827" y="24.765" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U$2" library="UpBoard" package="LGA" value="LSM9DS1LONG_PAD" x="25.146" y="19.5834" rot="R270"/>
@@ -2001,6 +2008,10 @@ Please make sure your boards conform to these design rules.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)

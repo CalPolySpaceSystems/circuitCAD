@@ -196,14 +196,14 @@
 <hole x="18.54" y="3.58" drill="0.5"/>
 <smd name="TAC1" x="11.44" y="5.08" dx="0.5" dy="1.5" layer="16"/>
 <smd name="TAC2" x="19.04" y="5.08" dx="0.5" dy="1.5" layer="16"/>
-<wire x1="12.34" y1="6.28" x2="12.34" y2="3.88" width="0.127" layer="21"/>
-<wire x1="12.34" y1="3.88" x2="18.14" y2="3.88" width="0.127" layer="21"/>
-<wire x1="18.14" y1="3.88" x2="18.14" y2="6.28" width="0.127" layer="21"/>
-<wire x1="18.14" y1="6.28" x2="12.34" y2="6.28" width="0.127" layer="21"/>
-<wire x1="18.79" y1="6.88" x2="11.69" y2="6.88" width="0.127" layer="21"/>
-<wire x1="11.69" y1="6.88" x2="11.69" y2="3.28" width="0.127" layer="21"/>
-<wire x1="11.69" y1="3.28" x2="18.79" y2="3.28" width="0.127" layer="21"/>
-<wire x1="18.79" y1="3.28" x2="18.79" y2="6.88" width="0.127" layer="21"/>
+<wire x1="18.14" y1="6.28" x2="18.14" y2="3.88" width="0.127" layer="22"/>
+<wire x1="18.14" y1="3.88" x2="12.34" y2="3.88" width="0.127" layer="22"/>
+<wire x1="12.34" y1="3.88" x2="12.34" y2="6.28" width="0.127" layer="22"/>
+<wire x1="12.34" y1="6.28" x2="18.14" y2="6.28" width="0.127" layer="22"/>
+<wire x1="11.69" y1="6.88" x2="18.79" y2="6.88" width="0.127" layer="22"/>
+<wire x1="18.79" y1="6.88" x2="18.79" y2="3.28" width="0.127" layer="22"/>
+<wire x1="18.79" y1="3.28" x2="11.69" y2="3.28" width="0.127" layer="22"/>
+<wire x1="11.69" y1="3.28" x2="11.69" y2="6.88" width="0.127" layer="22"/>
 <rectangle x1="11.69" y1="3.28" x2="18.79" y2="6.88" layer="42"/>
 <hole x="5.08" y="3.81" drill="3.2"/>
 <hole x="33.02" y="21.59" drill="3.2"/>
@@ -263,7 +263,7 @@
 </polygon>
 <text x="11.43" y="7.62" size="0.6096" layer="22" rot="MR0">1</text>
 <text x="11.43" y="1.27" size="0.6096" layer="22" rot="MR0">20</text>
-<rectangle x1="12.319" y1="3.937" x2="18.161" y2="6.223" layer="21"/>
+<rectangle x1="12.319" y1="3.937" x2="18.161" y2="6.223" layer="22" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -7587,7 +7587,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="supply1">
+<library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
  Please keep in mind, that these devices are necessary for the
@@ -7598,14 +7598,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <packages>
 </packages>
 <symbols>
-<symbol name="GND">
+<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GND" prefix="GND">
+<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
@@ -7645,8 +7645,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="C9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="100 nF"/>
 <part name="C10" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="10 uF"/>
 <part name="U$2" library="UpBoard" deviceset="LSM9DS1" device="LONG_PAD"/>
-<part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="GND2" library="supply1" deviceset="GND" device=""/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
