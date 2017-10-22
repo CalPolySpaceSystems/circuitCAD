@@ -9349,12 +9349,26 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 </packages>
 <symbols>
 <symbol name="ABMM-6">
-<pin name="XTOUT" x="-12.7" y="7.62" length="middle"/>
-<pin name="XTIN" x="-12.7" y="-5.08" length="middle"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="5.08" y2="10.16" width="0.254" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<pin name="XTOUT" x="12.7" y="-5.08" length="short" rot="R180"/>
+<pin name="XTIN" x="12.7" y="5.08" length="short" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="7.62" y2="1.27" width="0.254" layer="97"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="97"/>
+<wire x1="2.54" y1="-1.27" x2="7.62" y2="-1.27" width="0.254" layer="97"/>
+<wire x1="7.62" y1="-1.27" x2="7.62" y2="1.27" width="0.254" layer="97"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="97"/>
+<wire x1="5.08" y1="2.54" x2="6.35" y2="2.54" width="0.254" layer="97"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="97"/>
+<wire x1="5.08" y1="-2.54" x2="6.35" y2="-2.54" width="0.254" layer="97"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="97"/>
+<wire x1="5.08" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="97"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="-5.08" width="0.254" layer="97"/>
+<wire x1="5.08" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="97"/>
+<pin name="GND2" x="-12.7" y="2.54" length="middle"/>
+<pin name="GND4" x="-12.7" y="-2.54" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9365,6 +9379,8 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <devices>
 <device name="" package="SMD-4_NOLEAD">
 <connects>
+<connect gate="G$1" pin="GND2" pad="2"/>
+<connect gate="G$1" pin="GND4" pad="4"/>
 <connect gate="G$1" pin="XTIN" pad="3"/>
 <connect gate="G$1" pin="XTOUT" pad="1"/>
 </connects>
@@ -9465,11 +9481,10 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <part name="X2" library="con-hirose" library_urn="urn:adsk.eagle:library:152" deviceset="MINI-USB-" device="UX60-MB-5S8" package3d_urn="urn:adsk.eagle:package:7264/1"/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="10k"/>
-<part name="U$8" library="ABMM_Crystal" deviceset="ABBM-6" device=""/>
 <part name="C11" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="27pF"/>
 <part name="C12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:26138/1" value="27pF"/>
+<part name="U$8" library="ABMM_Crystal" deviceset="ABBM-6" device=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9567,11 +9582,10 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <instance part="X2" gate="G$1" x="297.18" y="88.9"/>
 <instance part="P+7" gate="1" x="30.48" y="-134.62"/>
 <instance part="R2" gate="G$1" x="12.7" y="-137.16" rot="R90"/>
-<instance part="U$8" gate="G$1" x="-40.64" y="-63.5" rot="MR0"/>
-<instance part="C11" gate="G$1" x="-17.78" y="-73.66"/>
-<instance part="C12" gate="G$1" x="-15.24" y="-63.5"/>
-<instance part="SUPPLY5" gate="GND" x="-10.16" y="-76.2"/>
-<instance part="SUPPLY13" gate="GND" x="-12.7" y="-81.28"/>
+<instance part="C11" gate="G$1" x="-43.18" y="-78.74" rot="R270"/>
+<instance part="C12" gate="G$1" x="-43.18" y="-50.8" rot="R270"/>
+<instance part="U$8" gate="G$1" x="-43.18" y="-66.04"/>
+<instance part="SUPPLY5" gate="GND" x="-58.42" y="-83.82"/>
 </instances>
 <busses>
 </busses>
@@ -9783,14 +9797,22 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
 </segment>
 <segment>
+<pinref part="U$8" gate="G$1" pin="GND2"/>
+<wire x1="-55.88" y1="-63.5" x2="-58.42" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-63.5" x2="-58.42" y2="-50.8" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="2"/>
-<pinref part="SUPPLY5" gate="GND" pin="GND"/>
-<wire x1="-10.16" y1="-73.66" x2="-15.24" y2="-68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
+<wire x1="-58.42" y1="-50.8" x2="-48.26" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-63.5" x2="-58.42" y2="-68.58" width="0.1524" layer="91"/>
+<junction x="-58.42" y="-63.5"/>
+<pinref part="U$8" gate="G$1" pin="GND4"/>
+<wire x1="-58.42" y1="-68.58" x2="-55.88" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-68.58" x2="-58.42" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="-58.42" y="-68.58"/>
 <pinref part="C11" gate="G$1" pin="2"/>
-<pinref part="SUPPLY13" gate="GND" pin="GND"/>
-<wire x1="-12.7" y1="-78.74" x2="-17.78" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="-78.74" x2="-48.26" y2="-78.74" width="0.1524" layer="91"/>
+<pinref part="SUPPLY5" gate="GND" pin="GND"/>
+<wire x1="-58.42" y1="-81.28" x2="-58.42" y2="-78.74" width="0.1524" layer="91"/>
+<junction x="-58.42" y="-78.74"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -10344,26 +10366,26 @@ Source: http://www.hirose.co.jp/cataloge_hp/e24000019.pdf</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="XTIN"/>
-<wire x1="-27.94" y1="-68.58" x2="-20.32" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="-20.32" y1="-68.58" x2="-20.32" y2="-60.96" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="XTIN"/>
-<wire x1="-20.32" y1="-60.96" x2="-15.24" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="U$8" gate="G$1" pin="XTIN"/>
+<wire x1="-10.16" y1="-60.96" x2="-22.86" y2="-60.96" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="-15.24" y1="-60.96" x2="-10.16" y2="-60.96" width="0.1524" layer="91"/>
-<junction x="-15.24" y="-60.96"/>
+<wire x1="-22.86" y1="-60.96" x2="-30.48" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-50.8" x2="-22.86" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-50.8" x2="-22.86" y2="-60.96" width="0.1524" layer="91"/>
+<junction x="-22.86" y="-60.96"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U$8" gate="G$1" pin="XTOUT"/>
-<wire x1="-27.94" y1="-55.88" x2="-25.4" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="-55.88" x2="-25.4" y2="-71.12" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="XTOUT"/>
-<wire x1="-25.4" y1="-71.12" x2="-17.78" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="-71.12" x2="-22.86" y2="-71.12" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="-17.78" y1="-71.12" x2="-10.16" y2="-71.12" width="0.1524" layer="91"/>
-<junction x="-17.78" y="-71.12"/>
+<wire x1="-22.86" y1="-71.12" x2="-10.16" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-78.74" x2="-22.86" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="-78.74" x2="-22.86" y2="-71.12" width="0.1524" layer="91"/>
+<junction x="-22.86" y="-71.12"/>
 </segment>
 </net>
 </nets>
