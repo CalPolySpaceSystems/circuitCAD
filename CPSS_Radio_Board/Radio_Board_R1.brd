@@ -28,7 +28,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -171,6 +171,9 @@
 <hole x="4.699" y="7.239" drill="3.2"/>
 <hole x="58.42" y="18.923" drill="3.2"/>
 <hole x="35.306" y="19.558" drill="3.2"/>
+<text x="20.32" y="6.35" size="1.778" layer="26" rot="MR180">CPSS Comm/GPS Board</text>
+<text x="19.05" y="3.81" size="1.778" layer="26" rot="MR180">10-2017</text>
+<text x="33.02" y="3.81" size="1.778" layer="26" rot="MR180">Brett Glidden</text>
 </plain>
 <libraries>
 <library name="resistor" urn="urn:adsk.eagle:library:348">
