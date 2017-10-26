@@ -1,0 +1,65 @@
+\t (00:00:00) padstack_editor 17.2 P019 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Wed Oct 25 22:41:30 2017
+\t (00:00:00)         Host=DESKTOP-QV56IPU User=Justin Pid=2160 CPUs=8
+\t (00:00:00) CmdLine= padstack_editor -s s_r264_264_m264_264_p264_26_pad.scr
+\t (00:00:00) 
+\d (00:00:00) QtSignal # Pad Editor script
+\d (00:00:00) QtSignal # name: s_r264_264_m264_264_p264_26_pad.scr
+\d (00:00:00) QtSignal # copyright: This work is licensed under a Creative Commons Attribution-ShareAlike +
+\d (00:00:00) QtSignal 4.0 International License (CC BY-SA) with Design Exception 1.0
+\d (00:00:00) QtSignal # version 17.2
+\d (00:00:00) QtSignal # Launch new Padstack File
+\d (00:00:00) QtSignal MainWindow New triggered
+\d (00:00:00) QtSignal fileNewDialog dirPath editingFinished s_r264_264_m264_264_p264_26
+\d (00:00:00) QtSignal fileNewDialog dataCombo activated "SMD Pin"
+\d (00:00:00) QtSignal fileNewDialog OK clicked
+\d (00:00:00) QtSignal # General Settings
+\d (00:00:00) QtSignal MainWindow Units CurrentIndexChanged Millimeter
+\w (00:00:00) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\d (00:00:00) QtSignal MainWindow DecimalPlaces CurrentIndexChanged 4
+\d (00:00:00) QtSignal MainWindow DecimalPlaces activated 4
+\d (00:00:00) QtSignal # Start Tab Settings
+\d (00:00:00) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:00:00) QtSignal # Select padstack usage
+\d (00:00:00) QtSignal GuidedTabsParent PadstackTypes itemClicked "SMD Pin"
+\d (00:00:00) QtSignal GuidedTabsParent PadstackTypes currentRowChanged 1
+\d (00:00:00) QtSignal GuidedTabsParent PadstackTypes itemSelectionChanged "SMD Pin"
+\d (00:00:00) QtSignal GuidedTabsParent PadstackTypes itemClicked "SMD Pin"
+\d (00:00:00) QtSignal # Select pad geometry
+\d (00:00:00) QtSignal GuidedTabsParent NewPads currentRowChanged 3
+\d (00:00:00) QtSignal GuidedTabsParent NewPads itemSelectionChanged Rectangle
+\d (00:00:00) QtSignal GuidedTabsParent NewPads itemClicked Rectangle
+\d (00:00:00) QtSignal # Design Layers Tab Settings
+\d (00:00:00) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:00) QtSignal # BEGIN LAYER
+\d (00:00:00) QtSignal GuidedDesignLayersTab LayersTable itemChanged 0 "Layer Name" begin_layer
+\d (00:00:00) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Layer Name"
+\d (00:00:00) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Layer Name" 0 1
+\d (00:00:00) QtSignal # BEGIN LAYER : Regular Pad
+\d (00:00:00) QtSignal GuidedDesignLayersTab LayersTable itemSelectionChanged 0 "Regular Pad"
+\d (00:00:00) QtSignal GuidedDesignLayersTab LayersTable cellClicked 0 "Regular Pad" 0 2
+\d (00:00:00) QtSignal GuidedDesignLayersTab PadShape CurrentIndexChanged Rectangle
+\d (00:00:00) QtSignal GuidedDesignLayersTab PadShape activated Rectangle
+\d (00:00:00) QtSignal GuidedDesignLayersTab PadWidth editingFinished 2.6416
+\d (00:00:00) QtSignal GuidedDesignLayersTab PadHeight editingFinished 2.6416
+\d (00:00:00) QtSignal # Mask Layers Tab Settings
+\d (00:00:00) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:00) QtSignal # SOLDERMASK_TOP : Pad
+\d (00:00:00) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 0 Pad
+\d (00:00:00) QtSignal GuidedMaskLayersTab LayersTable cellClicked 0 Pad None 0 1
+\d (00:00:00) QtSignal GuidedMaskLayersTab PadShape CurrentIndexChanged Rectangle
+\d (00:00:00) QtSignal GuidedMaskLayersTab PadShape activated Rectangle
+\d (00:00:00) QtSignal GuidedMaskLayersTab PadWidth editingFinished 2.6416
+\d (00:00:00) QtSignal GuidedMaskLayersTab PadHeight editingFinished 2.6416
+\d (00:00:00) QtSignal # PASTEMASK_TOP : Pad
+\d (00:00:00) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:00:00) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad None 2 1
+\d (00:00:00) QtSignal GuidedMaskLayersTab PadShape CurrentIndexChanged Rectangle
+\d (00:00:00) QtSignal GuidedMaskLayersTab PadShape activated Rectangle
+\d (00:00:00) QtSignal GuidedMaskLayersTab PadWidth editingFinished 2.6416
+\d (00:00:00) QtSignal GuidedMaskLayersTab PadHeight editingFinished 2.6416
+\d (00:00:00) QtSignal # Check, Save, and Exit Commands
+\d (00:00:00) QtSignal MainWindow Check triggered
+\d (00:00:00) QtSignal MainWindow Save triggered
+\d (00:00:00) QtSignal MainWindow Exit triggered
+\t (00:00:00)     Journal end - Wed Oct 25 22:41:31 2017

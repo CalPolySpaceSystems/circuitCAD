@@ -1,0 +1,105 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : StrainGaugeBoard_R0_X0.brd                    )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Thu Oct 26 05:32:48 2017                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'D:\CPSS\CIRCUITCAD\STRAINGAUGEBOARD\SCHEMATIC\NETLIST'
+Design Directory:            'D:/CPSS/circuitCAD/StrainGaugeBoard/Manufacturing'
+Old design name:             'D:/CPSS/circuitCAD/StrainGaugeBoard/Manufacturing/StrainGaugeBoard_R0_X0.brd'
+New design name:             'D:/CPSS/circuitCAD/StrainGaugeBoard/Manufacturing/StrainGaugeBoard_R0_X0.brd'
+
+CmdLine: netrev.exe -y 1 -n -i D:\CPSS\CIRCUITCAD\STRAINGAUGEBOARD\SCHEMATIC\NETLIST D:\CPSS\circuitCAD\StrainGaugeBoard\Manufacturing\StrainGaugeBoard_R0_X0.brd D:\CPSS\circuitCAD\StrainGaugeBoard\Manufacturing\StrainGaugeBoard_R0_X0.brd
+
+------ Preparing to read pst files ------
+
+Starting to read D:/CPSS/CIRCUITCAD/STRAINGAUGEBOARD/SCHEMATIC/NETLIST/pstchip.dat 
+   Finished reading D:/CPSS/CIRCUITCAD/STRAINGAUGEBOARD/SCHEMATIC/NETLIST/pstchip.dat (00:00:00.01)
+Starting to read D:/CPSS/CIRCUITCAD/STRAINGAUGEBOARD/SCHEMATIC/NETLIST/pstxprt.dat 
+   Finished reading D:/CPSS/CIRCUITCAD/STRAINGAUGEBOARD/SCHEMATIC/NETLIST/pstxprt.dat (00:00:00.00)
+Starting to read D:/CPSS/CIRCUITCAD/STRAINGAUGEBOARD/SCHEMATIC/NETLIST/pstxnet.dat 
+   Finished reading D:/CPSS/CIRCUITCAD/STRAINGAUGEBOARD/SCHEMATIC/NETLIST/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'C_0805' used by RefDes C1 for device 'C_NP_C_0805_100NF': WARNING(SPMHUT-127): Could not find padstack RX40Y55D0T. [help]
+
+#2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'C_0805' used by RefDes C11 for device 'C_NP_C_0805_.01UF': WARNING(SPMHUT-127): Could not find padstack RX40Y55D0T. [help]
+
+#3   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-337): Unable to load symbol 'C_0805' used by RefDes C4 for device 'C_NP_C_0805_1NF': WARNING(SPMHUT-127): Could not find padstack RX40Y55D0T. [help]
+
+------ Library Paths ------
+MODULEPATH =  . 
+           d:/program files/cadence/spb_17.2/share/local/pcb/modules 
+
+PSMPATH =  D:/MSTL/PolySat/Electronics/Boards/Footprints_Padstacks_Logos/Official_Packages/ 
+           D:/MSTL/PolySat/Electronics/Boards/Footprints_Padstacks_Logos/Packages/ 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           d:/program files/cadence/spb_17.2/share/local/pcb/symbols 
+           d:/program files/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
+           d:/program files/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+
+PADPATH =  D:/MSTL/PolySat/Electronics/Boards/Footprints_Padstacks_Logos/Pads/ 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           d:/program files/cadence/spb_17.2/share/local/pcb/padstacks 
+           d:/program files/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
+           d:/program files/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Oct 26 5:32:48 2017
+   DESIGN NAME : 'STRAIN GAUGE BOARD'
+   PACKAGING ON Mar  2 2016 00:37:24
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+  3 warnings detected
+
+cpu time      0:00:17
+elapsed time  0:00:00
+

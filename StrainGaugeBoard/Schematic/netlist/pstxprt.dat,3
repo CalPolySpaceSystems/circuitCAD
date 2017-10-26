@@ -1,0 +1,1240 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Oct-26-2017 at 05:27:11 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='STRAIN GAUGE BOARD';
+ POST_TIME='Mar  2 2016 00:37:24';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'C_NP_C_0805_100NF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3237837@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3237837@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3237837@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'C_NP_C_0805_100NF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3230914@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3230914@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3230914@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'C_NP_C_0805_.01UF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG1@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS1249@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg1@\strain gauge board\.\strain gauge\(sch_1):ins1249@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg1@\strain gauge board\.\strain gauge\(sch_1):page4_ins1249@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'C_NP_C_0805_.01UF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG23@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS1249@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg23@\strain gauge board\.\strain gauge\(sch_1):ins1249@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg23@\strain gauge board\.\strain gauge\(sch_1):page5_ins1249@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'C_NP_C_0805_.01UF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG15@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS1249@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg15@\strain gauge board\.\strain gauge\(sch_1):ins1249@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg15@\strain gauge board\.\strain gauge\(sch_1):page6_ins1249@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'C_NP_C_0805_.01UF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG16@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS1249@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg16@\strain gauge board\.\strain gauge\(sch_1):ins1249@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg16@\strain gauge board\.\strain gauge\(sch_1):page7_ins1249@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'C_NP_C_0805_.01UF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG17@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS1249@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg17@\strain gauge board\.\strain gauge\(sch_1):ins1249@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg17@\strain gauge board\.\strain gauge\(sch_1):page8_ins1249@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'C_NP_C_0805_.01UF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG18@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS1249@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg18@\strain gauge board\.\strain gauge\(sch_1):ins1249@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg18@\strain gauge board\.\strain gauge\(sch_1):page9_ins1249@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'C_NP_C_0805_.01UF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG19@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS1249@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg19@\strain gauge board\.\strain gauge\(sch_1):ins1249@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg19@\strain gauge board\.\strain gauge\(sch_1):page10_ins1249@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 'C_NP_C_0805_.01UF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG20@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS1249@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg20@\strain gauge board\.\strain gauge\(sch_1):ins1249@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg20@\strain gauge board\.\strain gauge\(sch_1):page11_ins1249@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C19 'C_NP_C_0805_.01UF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG21@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS1249@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg21@\strain gauge board\.\strain gauge\(sch_1):ins1249@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg21@\strain gauge board\.\strain gauge\(sch_1):page12_ins1249@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C_NP_C_0805_100NF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3238844@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3238844@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3238844@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C20 'C_NP_C_0805_.01UF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG22@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS1249@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg22@\strain gauge board\.\strain gauge\(sch_1):ins1249@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg22@\strain gauge board\.\strain gauge\(sch_1):page13_ins1249@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_NP_C_0805_100NF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3237932@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3237932@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3237932@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_NP_C_0805_1NF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3230031@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3230031@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3230031@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C_NP_C_0805_100NF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3230651@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3230651@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3230651@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C_NP_C_0805_100NF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3242016@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3242016@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3242016@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C_NP_C_0805_100NF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3242034@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3242034@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3242034@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'C_NP_C_0805_100NF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3242052@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3242052@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3242052@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'C_NP_C_0805_1NF':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3230134@POLYSAT.C_NP.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3230134@polysat.\c_np.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3230134@polysat.\c_np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG1@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS539@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg1@\strain gauge board\.\strain gauge\(sch_1):ins539@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg1@\strain gauge board\.\strain gauge\(sch_1):page4_ins539@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J10 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG15@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS571@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg15@\strain gauge board\.\strain gauge\(sch_1):ins571@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg15@\strain gauge board\.\strain gauge\(sch_1):page6_ins571@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J11 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG15@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS555@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg15@\strain gauge board\.\strain gauge\(sch_1):ins555@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg15@\strain gauge board\.\strain gauge\(sch_1):page6_ins555@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J12 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG15@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS587@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg15@\strain gauge board\.\strain gauge\(sch_1):ins587@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg15@\strain gauge board\.\strain gauge\(sch_1):page6_ins587@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J13 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG16@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS539@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg16@\strain gauge board\.\strain gauge\(sch_1):ins539@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg16@\strain gauge board\.\strain gauge\(sch_1):page7_ins539@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J14 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG16@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS571@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg16@\strain gauge board\.\strain gauge\(sch_1):ins571@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg16@\strain gauge board\.\strain gauge\(sch_1):page7_ins571@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J15 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG16@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS555@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg16@\strain gauge board\.\strain gauge\(sch_1):ins555@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg16@\strain gauge board\.\strain gauge\(sch_1):page7_ins555@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J16 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG16@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS587@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg16@\strain gauge board\.\strain gauge\(sch_1):ins587@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg16@\strain gauge board\.\strain gauge\(sch_1):page7_ins587@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J17 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG17@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS539@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg17@\strain gauge board\.\strain gauge\(sch_1):ins539@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg17@\strain gauge board\.\strain gauge\(sch_1):page8_ins539@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J18 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG17@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS571@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg17@\strain gauge board\.\strain gauge\(sch_1):ins571@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg17@\strain gauge board\.\strain gauge\(sch_1):page8_ins571@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J19 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG17@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS555@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg17@\strain gauge board\.\strain gauge\(sch_1):ins555@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg17@\strain gauge board\.\strain gauge\(sch_1):page8_ins555@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG1@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS571@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg1@\strain gauge board\.\strain gauge\(sch_1):ins571@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg1@\strain gauge board\.\strain gauge\(sch_1):page4_ins571@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J20 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG17@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS587@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg17@\strain gauge board\.\strain gauge\(sch_1):ins587@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg17@\strain gauge board\.\strain gauge\(sch_1):page8_ins587@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J21 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG18@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS539@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg18@\strain gauge board\.\strain gauge\(sch_1):ins539@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg18@\strain gauge board\.\strain gauge\(sch_1):page9_ins539@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J22 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG18@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS571@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg18@\strain gauge board\.\strain gauge\(sch_1):ins571@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg18@\strain gauge board\.\strain gauge\(sch_1):page9_ins571@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J23 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG18@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS555@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg18@\strain gauge board\.\strain gauge\(sch_1):ins555@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg18@\strain gauge board\.\strain gauge\(sch_1):page9_ins555@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J24 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG18@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS587@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg18@\strain gauge board\.\strain gauge\(sch_1):ins587@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg18@\strain gauge board\.\strain gauge\(sch_1):page9_ins587@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J25 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG19@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS539@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg19@\strain gauge board\.\strain gauge\(sch_1):ins539@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg19@\strain gauge board\.\strain gauge\(sch_1):page10_ins539@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J26 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG19@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS571@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg19@\strain gauge board\.\strain gauge\(sch_1):ins571@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg19@\strain gauge board\.\strain gauge\(sch_1):page10_ins571@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J27 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG19@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS555@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg19@\strain gauge board\.\strain gauge\(sch_1):ins555@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg19@\strain gauge board\.\strain gauge\(sch_1):page10_ins555@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J28 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG19@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS587@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg19@\strain gauge board\.\strain gauge\(sch_1):ins587@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg19@\strain gauge board\.\strain gauge\(sch_1):page10_ins587@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J29 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG20@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS539@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg20@\strain gauge board\.\strain gauge\(sch_1):ins539@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg20@\strain gauge board\.\strain gauge\(sch_1):page11_ins539@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG1@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS555@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg1@\strain gauge board\.\strain gauge\(sch_1):ins555@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg1@\strain gauge board\.\strain gauge\(sch_1):page4_ins555@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J30 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG20@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS571@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg20@\strain gauge board\.\strain gauge\(sch_1):ins571@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg20@\strain gauge board\.\strain gauge\(sch_1):page11_ins571@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J31 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG20@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS555@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg20@\strain gauge board\.\strain gauge\(sch_1):ins555@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg20@\strain gauge board\.\strain gauge\(sch_1):page11_ins555@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J32 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG20@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS587@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg20@\strain gauge board\.\strain gauge\(sch_1):ins587@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg20@\strain gauge board\.\strain gauge\(sch_1):page11_ins587@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J33 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG21@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS539@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg21@\strain gauge board\.\strain gauge\(sch_1):ins539@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg21@\strain gauge board\.\strain gauge\(sch_1):page12_ins539@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J34 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG21@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS571@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg21@\strain gauge board\.\strain gauge\(sch_1):ins571@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg21@\strain gauge board\.\strain gauge\(sch_1):page12_ins571@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J35 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG21@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS555@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg21@\strain gauge board\.\strain gauge\(sch_1):ins555@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg21@\strain gauge board\.\strain gauge\(sch_1):page12_ins555@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J36 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG21@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS587@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg21@\strain gauge board\.\strain gauge\(sch_1):ins587@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg21@\strain gauge board\.\strain gauge\(sch_1):page12_ins587@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J37 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG22@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS539@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg22@\strain gauge board\.\strain gauge\(sch_1):ins539@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg22@\strain gauge board\.\strain gauge\(sch_1):page13_ins539@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J38 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG22@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS571@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg22@\strain gauge board\.\strain gauge\(sch_1):ins571@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg22@\strain gauge board\.\strain gauge\(sch_1):page13_ins571@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J39 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG22@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS555@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg22@\strain gauge board\.\strain gauge\(sch_1):ins555@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg22@\strain gauge board\.\strain gauge\(sch_1):page13_ins555@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG1@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS587@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg1@\strain gauge board\.\strain gauge\(sch_1):ins587@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg1@\strain gauge board\.\strain gauge\(sch_1):page4_ins587@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J40 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG22@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS587@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg22@\strain gauge board\.\strain gauge\(sch_1):ins587@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg22@\strain gauge board\.\strain gauge\(sch_1):page13_ins587@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG23@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS539@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg23@\strain gauge board\.\strain gauge\(sch_1):ins539@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg23@\strain gauge board\.\strain gauge\(sch_1):page5_ins539@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG23@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS571@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg23@\strain gauge board\.\strain gauge\(sch_1):ins571@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg23@\strain gauge board\.\strain gauge\(sch_1):page5_ins571@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG23@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS555@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg23@\strain gauge board\.\strain gauge\(sch_1):ins555@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg23@\strain gauge board\.\strain gauge\(sch_1):page5_ins555@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J8 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG23@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS587@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg23@\strain gauge board\.\strain gauge\(sch_1):ins587@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg23@\strain gauge board\.\strain gauge\(sch_1):page5_ins587@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J9 '53780_2PIN_JUMPER_0901200122':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG15@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS539@POLYSAT.53780.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg15@\strain gauge board\.\strain gauge\(sch_1):ins539@polysat.\53780.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg15@\strain gauge board\.\strain gauge\(sch_1):page6_ins539@polysat.\53780.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3231628@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3231628@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3231628@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3232323@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3232323@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3232323@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3232386@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3232386@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3232386@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3232430@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3232430@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3232430@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3232474@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3232474@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3232474@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3232515@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3232515@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3232515@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3232556@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3232556@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3232556@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3232600@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3232600@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3232600@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R17 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3232642@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3232642@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3232642@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R18 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3232772@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3232772@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3232772@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R19 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3232816@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3232816@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3232816@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3231677@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3231677@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3231677@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R20 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3233118@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3233118@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3233118@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R21 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG1@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS232@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg1@\strain gauge board\.\strain gauge\(sch_1):ins232@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg1@\strain gauge board\.\strain gauge\(sch_1):page4_ins232@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R22 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG1@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS272@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg1@\strain gauge board\.\strain gauge\(sch_1):ins272@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg1@\strain gauge board\.\strain gauge\(sch_1):page4_ins272@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R23 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG1@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS252@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg1@\strain gauge board\.\strain gauge\(sch_1):ins252@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg1@\strain gauge board\.\strain gauge\(sch_1):page4_ins252@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R24 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG1@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS292@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg1@\strain gauge board\.\strain gauge\(sch_1):ins292@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg1@\strain gauge board\.\strain gauge\(sch_1):page4_ins292@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R25 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG23@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS232@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg23@\strain gauge board\.\strain gauge\(sch_1):ins232@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg23@\strain gauge board\.\strain gauge\(sch_1):page5_ins232@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R26 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG23@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS272@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg23@\strain gauge board\.\strain gauge\(sch_1):ins272@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg23@\strain gauge board\.\strain gauge\(sch_1):page5_ins272@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R27 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG23@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS252@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg23@\strain gauge board\.\strain gauge\(sch_1):ins252@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg23@\strain gauge board\.\strain gauge\(sch_1):page5_ins252@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R28 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG23@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS292@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg23@\strain gauge board\.\strain gauge\(sch_1):ins292@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg23@\strain gauge board\.\strain gauge\(sch_1):page5_ins292@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R29 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG15@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS232@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg15@\strain gauge board\.\strain gauge\(sch_1):ins232@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg15@\strain gauge board\.\strain gauge\(sch_1):page6_ins232@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3231779@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3231779@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3231779@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R30 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG15@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS272@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg15@\strain gauge board\.\strain gauge\(sch_1):ins272@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg15@\strain gauge board\.\strain gauge\(sch_1):page6_ins272@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R31 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG15@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS252@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg15@\strain gauge board\.\strain gauge\(sch_1):ins252@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg15@\strain gauge board\.\strain gauge\(sch_1):page6_ins252@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R32 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG15@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS292@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg15@\strain gauge board\.\strain gauge\(sch_1):ins292@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg15@\strain gauge board\.\strain gauge\(sch_1):page6_ins292@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R33 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG16@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS232@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg16@\strain gauge board\.\strain gauge\(sch_1):ins232@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg16@\strain gauge board\.\strain gauge\(sch_1):page7_ins232@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R34 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG16@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS272@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg16@\strain gauge board\.\strain gauge\(sch_1):ins272@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg16@\strain gauge board\.\strain gauge\(sch_1):page7_ins272@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R35 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG16@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS252@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg16@\strain gauge board\.\strain gauge\(sch_1):ins252@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg16@\strain gauge board\.\strain gauge\(sch_1):page7_ins252@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R36 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG16@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS292@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg16@\strain gauge board\.\strain gauge\(sch_1):ins292@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg16@\strain gauge board\.\strain gauge\(sch_1):page7_ins292@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R37 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG17@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS232@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg17@\strain gauge board\.\strain gauge\(sch_1):ins232@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg17@\strain gauge board\.\strain gauge\(sch_1):page8_ins232@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R38 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG17@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS272@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg17@\strain gauge board\.\strain gauge\(sch_1):ins272@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg17@\strain gauge board\.\strain gauge\(sch_1):page8_ins272@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R39 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG17@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS252@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg17@\strain gauge board\.\strain gauge\(sch_1):ins252@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg17@\strain gauge board\.\strain gauge\(sch_1):page8_ins252@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3231820@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3231820@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3231820@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R40 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG17@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS292@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg17@\strain gauge board\.\strain gauge\(sch_1):ins292@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg17@\strain gauge board\.\strain gauge\(sch_1):page8_ins292@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R41 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG18@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS232@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg18@\strain gauge board\.\strain gauge\(sch_1):ins232@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg18@\strain gauge board\.\strain gauge\(sch_1):page9_ins232@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R42 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG18@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS272@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg18@\strain gauge board\.\strain gauge\(sch_1):ins272@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg18@\strain gauge board\.\strain gauge\(sch_1):page9_ins272@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R43 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG18@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS252@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg18@\strain gauge board\.\strain gauge\(sch_1):ins252@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg18@\strain gauge board\.\strain gauge\(sch_1):page9_ins252@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R44 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG18@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS292@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg18@\strain gauge board\.\strain gauge\(sch_1):ins292@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg18@\strain gauge board\.\strain gauge\(sch_1):page9_ins292@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R45 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG19@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS232@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg19@\strain gauge board\.\strain gauge\(sch_1):ins232@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg19@\strain gauge board\.\strain gauge\(sch_1):page10_ins232@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R46 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG19@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS272@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg19@\strain gauge board\.\strain gauge\(sch_1):ins272@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg19@\strain gauge board\.\strain gauge\(sch_1):page10_ins272@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R47 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG19@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS252@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg19@\strain gauge board\.\strain gauge\(sch_1):ins252@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg19@\strain gauge board\.\strain gauge\(sch_1):page10_ins252@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R48 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG19@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS292@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg19@\strain gauge board\.\strain gauge\(sch_1):ins292@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg19@\strain gauge board\.\strain gauge\(sch_1):page10_ins292@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R49 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG20@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS232@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg20@\strain gauge board\.\strain gauge\(sch_1):ins232@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg20@\strain gauge board\.\strain gauge\(sch_1):page11_ins232@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3231861@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3231861@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3231861@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R50 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG20@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS272@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg20@\strain gauge board\.\strain gauge\(sch_1):ins272@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg20@\strain gauge board\.\strain gauge\(sch_1):page11_ins272@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R51 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG20@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS252@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg20@\strain gauge board\.\strain gauge\(sch_1):ins252@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg20@\strain gauge board\.\strain gauge\(sch_1):page11_ins252@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R52 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG20@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS292@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg20@\strain gauge board\.\strain gauge\(sch_1):ins292@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg20@\strain gauge board\.\strain gauge\(sch_1):page11_ins292@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R53 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG21@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS232@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg21@\strain gauge board\.\strain gauge\(sch_1):ins232@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg21@\strain gauge board\.\strain gauge\(sch_1):page12_ins232@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R54 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG21@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS272@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg21@\strain gauge board\.\strain gauge\(sch_1):ins272@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg21@\strain gauge board\.\strain gauge\(sch_1):page12_ins272@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R55 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG21@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS252@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg21@\strain gauge board\.\strain gauge\(sch_1):ins252@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg21@\strain gauge board\.\strain gauge\(sch_1):page12_ins252@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R56 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG21@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS292@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg21@\strain gauge board\.\strain gauge\(sch_1):ins292@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg21@\strain gauge board\.\strain gauge\(sch_1):page12_ins292@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R57 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG22@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS232@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg22@\strain gauge board\.\strain gauge\(sch_1):ins232@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg22@\strain gauge board\.\strain gauge\(sch_1):page13_ins232@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R58 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG22@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS272@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg22@\strain gauge board\.\strain gauge\(sch_1):ins272@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg22@\strain gauge board\.\strain gauge\(sch_1):page13_ins272@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R59 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG22@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS252@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg22@\strain gauge board\.\strain gauge\(sch_1):ins252@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg22@\strain gauge board\.\strain gauge\(sch_1):page13_ins252@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3232044@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3232044@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3232044@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R60 'R_R_0805_DNP':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):RBRDG22@STRAIN GAUGE BOARD.STRAIN GAUGE(SCH_1):INS292@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):rbrdg22@\strain gauge board\.\strain gauge\(sch_1):ins292@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_rbrdg22@\strain gauge board\.\strain gauge\(sch_1):page13_ins292@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3231991@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3231991@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3231991@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3232157@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3232157@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3232157@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'R_R_0805_1K':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3232282@POLYSAT.R.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3232282@polysat.\r.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3232282@polysat.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'MAX11410_QFN40P400X400X80-29N_M':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3227880@POLYSAT.MAX11410.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3227880@polysat.\max11410.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3227880@polysat.\max11410.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 '5749767-1_0_5749767-1_5749767-1':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3233793@STRAIN GAUGE BOARD.5749767-1_0.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3233793@\strain gauge board\.\5749767-1_0.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3233793@\strain gauge board\.\5749767-1_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'MAX11410_QFN40P400X400X80-29N_M':;
+
+SECTION_NUMBER 1
+ '@STRAIN GAUGE BOARD.SCHEMATIC1(SCH_1):INS3227948@POLYSAT.MAX11410.NORMAL(CHIPS)':
+ C_PATH='@\strain gauge board\.schematic1(sch_1):ins3227948@polysat.\max11410.normal\(chips)',
+ P_PATH='@\strain gauge board\.schematic1(sch_1):page2_ins3227948@polysat.\max11410.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

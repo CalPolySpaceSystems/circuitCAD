@@ -1,0 +1,15 @@
+\t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Thu Oct 26 00:09:47 2017
+\t (00:00:00)         Host=DESKTOP-QV56IPU User=Justin Pid=6780 CPUs=8
+\t (00:00:00) CmdLine= D:\Program Files\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: D:/CPSS/circuitCAD/StrainGaugeBoard/Packages/QFN40P400X400X80-29N/QFN40P400X400X80-29N.dra
+\i (00:00:02) trapsize 3166
+\i (00:00:02) trapsize 3290
+\i (00:00:02) trapsize 3290
+\i (00:00:03) generaledit 
+\i (00:00:06) new 
+\i (00:00:55) newdrawfillin "5749767-1.dra" "Package Symbol"
+\t (00:00:55)     Journal end - Thu Oct 26 00:10:41 2017

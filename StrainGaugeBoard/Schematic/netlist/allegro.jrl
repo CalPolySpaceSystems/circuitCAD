@@ -1,0 +1,19 @@
+\t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Thu Oct 26 05:24:55 2017
+\t (00:00:00)         Host=DESKTOP-QV56IPU User=Justin Pid=9148 CPUs=8
+\t (00:00:00) CmdLine= D:\Program Files\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:02) Starting new design...
+\i (00:00:02) trapsize 1131
+\i (00:00:02) trapsize 1176
+\i (00:00:02) trapsize 1176
+\i (00:00:03) generaledit 
+\i (00:00:09) open 
+\i (00:00:33) fillin "D:\MSTL\PolySat\Electronics\Boards\Footprints_Padstacks_Logos\Packages\5749767-1.dra"
+\i (00:00:33) cd "D:\MSTL\PolySat\Electronics\Boards\Footprints_Padstacks_Logos\Packages"
+\t (00:00:33) Opening existing design...
+\i (00:00:33) trapsize 12466
+\i (00:00:33) trapsize 12954
+\i (00:00:33) trapsize 12954
+\t (00:00:33)     Journal end - Thu Oct 26 05:25:27 2017

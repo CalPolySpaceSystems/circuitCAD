@@ -1,0 +1,20 @@
+\t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Thu Oct 26 05:32:50 2017
+\t (00:00:00)         Host=DESKTOP-QV56IPU User=Justin Pid=3912 CPUs=8
+\t (00:00:00) CmdLine= d:\program files\cadence\spb_17.2\tools\bin\allegro.exe -mpssession Justin D:\CPSS\circuitCAD\StrainGaugeBoard\Manufacturing\StrainGaugeBoard_R0_X0.brd
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\d (00:00:02) Design opened: D:/CPSS/circuitCAD/StrainGaugeBoard/Manufacturing/StrainGaugeBoard_R0_X0.brd
+\i (00:00:02) trapsize 11315
+\i (00:00:02) trapsize 11758
+\i (00:00:02) trapsize 11758
+\i (00:00:03) generaledit 
+\i (00:02:35) open 
+\i (00:03:15) fillin "D:\MSTL\PolySat\Electronics\Boards\Footprints_Padstacks_Logos\Packages\c_0805.dra"
+\i (00:03:15) cd "D:\MSTL\PolySat\Electronics\Boards\Footprints_Padstacks_Logos\Packages"
+\t (00:03:15) Opening existing design...
+\i (00:03:15) trapsize 374
+\i (00:03:15) trapsize 388
+\i (00:03:15) trapsize 388
+\t (00:03:15)     Journal end - Thu Oct 26 05:36:05 2017

@@ -1,0 +1,187 @@
+(ExpressProject "Strain Gauge Board"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\strain gauge board.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "0")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (Board_sim_option "VHDL_flow")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory"
+       "D:\CPSS\CIRCUITCAD\STRAINGAUGEBOARD\SCHEMATIC\NETLIST")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File"
+       "D:\CPSS\circuitCAD\StrainGaugeBoard\Manufacturing\StrainGaugeBoard_R0_X0.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0"))
+  (Folder "Outputs"
+    (File ".\netlist\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\netlist\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\netlist\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (MPSSessionName "Justin")
+  (PartMRUSelector
+    (0-80_Buttonhead_FreeFit
+      (FullPartName "0-80_Buttonhead_FreeFit.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\POLYSAT.OLB")
+      (DeviceIndex "0"))
+    (MTHOLE_Tesseract
+      (FullPartName "MTHOLE_Tesseract.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\POLYSAT.OLB")
+      (DeviceIndex "0"))
+    (C_NP
+      (FullPartName "C_NP.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\POLYSAT.OLB")
+      (DeviceIndex "0"))
+    (testpad1
+      (FullPartName "testpad1.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\POLYSAT.OLB")
+      (DeviceIndex "0"))
+    (329_pin
+      (FullPartName "329_pin.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\POLYSAT.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "D:\MSTL\POLYSAT\ELECTRONICS\BOARDS\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (5749767-1
+      (FullPartName "5749767-1.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\POLYSAT.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\POLYSAT.OLB")
+      (DeviceIndex "0"))
+    (MAX11410
+      (FullPartName "MAX11410.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\POLYSAT.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND_POWER
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (DSUB9_Male
+      (FullPartName "DSUB9_Male.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\POLYSAT.OLB")
+      (DeviceIndex "0"))
+    (NAU7802
+      (FullPartName "NAU7802.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\POLYSAT.OLB")
+      (DeviceIndex "0"))
+    (53780
+      (FullPartName "53780.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\POLYSAT.OLB")
+      (DeviceIndex "0"))
+    (CON30
+      (FullPartName "CON30.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "D:\PROGRAM FILES\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\strain gauge board.dsn")
+      (Path "Design Resources" ".\strain gauge board.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\strain gauge board.dsn" "Strain Gauge")
+      (Path "Outputs")
+      (Select "Design Resources" ".\strain gauge board.dsn" "Strain Gauge"
+         "1. Strain Gauge Sensor"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 646"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 2331 156 845")
+        (Scroll "-408 0")
+        (Zoom "135")
+        (Occurrence "/"))
+      (Path
+         "D:\CPSS\CIRCUITCAD\STRAINGAUGEBOARD\SCHEMATIC\STRAIN GAUGE BOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "1. Overview"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 2357 182 871")
+        (Scroll "-408 0")
+        (Zoom "135")
+        (Occurrence "/"))
+      (Path
+         "D:\CPSS\CIRCUITCAD\STRAINGAUGEBOARD\SCHEMATIC\STRAIN GAUGE BOARD.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "3. Mechanical"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 286 2461 286 975")
+        (Scroll "-408 0")
+        (Zoom "135")
+        (Occurrence "/RBrdg1"))
+      (Path
+         "D:\CPSS\CIRCUITCAD\STRAINGAUGEBOARD\SCHEMATIC\STRAIN GAUGE BOARD.DSN")
+      (Schematic "Strain Gauge")
+      (Page "1. Strain Gauge Sensor")))
+  (ISPCBBASICLICENSE "false"))
