@@ -26914,7 +26914,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="VIN" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="P$1"/>
 <portref moduleinst="PS1-1" port="VIN"/>
