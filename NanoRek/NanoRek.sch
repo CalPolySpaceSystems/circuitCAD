@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8872,6 +8872,54 @@ Source: www.sumida.com/products/pdf/CEP125.pdf</description>
 <pinref part="U$6" gate="G$1" pin="P5"/>
 <pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="-60.96" x2="144.78" y2="-60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SDA5" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PC4"/>
+<wire x1="86.12" y1="38.94" x2="91.44" y2="38.94" width="0.1524" layer="91"/>
+<label x="91.44" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="A2"/>
+<wire x1="139.7" y1="43.18" x2="132.08" y2="43.18" width="0.1524" layer="91"/>
+<label x="127" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCL5" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PC5"/>
+<wire x1="86.12" y1="40.94" x2="93.98" y2="40.94" width="0.1524" layer="91"/>
+<label x="88.9" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="A1"/>
+<wire x1="139.7" y1="48.26" x2="132.08" y2="48.26" width="0.1524" layer="91"/>
+<label x="132.08" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLC3" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="B1"/>
+<wire x1="170.18" y1="48.26" x2="180.34" y2="48.26" width="0.1524" layer="91"/>
+<label x="172.72" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="SCLK"/>
+<wire x1="198.12" y1="68.58" x2="203.2" y2="68.58" width="0.1524" layer="91"/>
+<label x="200.66" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDA3" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="B2"/>
+<wire x1="170.18" y1="43.18" x2="180.34" y2="43.18" width="0.1524" layer="91"/>
+<label x="172.72" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="SDA"/>
+<wire x1="198.12" y1="66.04" x2="203.2" y2="66.04" width="0.1524" layer="91"/>
+<label x="203.2" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
