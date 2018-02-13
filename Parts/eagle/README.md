@@ -1,4 +1,4 @@
-#EAGLE Parts
+# EAGLE Parts
 In order to correctly use these libraries and design blocks, you must do the following:
 
 1. Open EAGLE. Go to the EAGLE control panel.
