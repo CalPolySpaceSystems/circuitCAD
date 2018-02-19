@@ -2,6 +2,7 @@
 
 This repository contains all the schematics and layouts for Cal Poly Space System's hardware.
 Starting in 2015, CPSS's avionics team has been iterating and improving its flight computer technology. We have several series of flight computers in development.
+In addition to projects, CAD parts we've made and commonly use are kept in the Parts directory.
 
 # UpBoard
 In 2015, CPSS began developing a flight computer for the rocket known as UpGoer. The name was changed but the derived "UpBoard" moniker stuck, and since then we have been iterating the design to be ever more complex, culminating with the UpBoardX based on the Arduino Due. 
