@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -62,7 +62,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -100,6 +100,38 @@
 <text x="-1.5" y="3" size="0.6096" layer="25">&gt;NAME</text>
 <text x="-1.5" y="-3.5" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.8" y1="-0.8" x2="0.8" y2="0.8" layer="41"/>
+</package>
+<package name="SOT-563">
+<smd name="E1" x="-0.5" y="-0.85" dx="0.3" dy="0.5" layer="1"/>
+<smd name="B1" x="0" y="-0.85" dx="0.3" dy="0.5" layer="1"/>
+<smd name="C2" x="0.5" y="-0.85" dx="0.3" dy="0.5" layer="1"/>
+<smd name="E2" x="0.5" y="0.85" dx="0.3" dy="0.5" layer="1"/>
+<smd name="B2" x="0" y="0.85" dx="0.3" dy="0.5" layer="1"/>
+<smd name="C1" x="-0.5" y="0.85" dx="0.3" dy="0.5" layer="1"/>
+<wire x1="-0.8" y1="0.6" x2="0.8" y2="0.6" width="0.127" layer="21"/>
+<wire x1="0.8" y1="0.6" x2="0.8" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-0.6" x2="-0.8" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-0.6" x2="-0.8" y2="0.6" width="0.127" layer="21"/>
+<text x="-1" y="2" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1" y="-2" size="0.6096" layer="27">&gt;VALUE</text>
+</package>
+<package name="WSON">
+<smd name="TH" x="0" y="0" dx="3.4" dy="4.3" layer="1"/>
+<smd name="P3" x="-4" y="-0.635" dx="1" dy="0.4" layer="1"/>
+<smd name="P4" x="-4" y="-1.905" dx="1" dy="0.4" layer="1"/>
+<smd name="P2" x="-4" y="0.635" dx="1" dy="0.4" layer="1"/>
+<smd name="P1" x="-4" y="1.905" dx="1" dy="0.4" layer="1"/>
+<smd name="P8" x="4" y="1.905" dx="1" dy="0.4" layer="1"/>
+<smd name="P7" x="4" y="0.635" dx="1" dy="0.4" layer="1"/>
+<smd name="P6" x="4" y="-0.635" dx="1" dy="0.4" layer="1"/>
+<smd name="P5" x="4" y="-1.905" dx="1" dy="0.4" layer="1"/>
+<wire x1="-4" y1="3" x2="4" y2="3" width="0.127" layer="21"/>
+<wire x1="4" y1="3" x2="4" y2="-3" width="0.127" layer="21"/>
+<wire x1="4" y1="-3" x2="-4" y2="-3" width="0.127" layer="21"/>
+<wire x1="-4" y1="-3" x2="-4" y2="3" width="0.127" layer="21"/>
+<circle x="-3" y="2.4" radius="0.14141875" width="0.127" layer="21"/>
+<text x="-4" y="4" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4" y="-5" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -159,6 +191,41 @@
 <text x="-5.08" y="22.86" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="PNP">
+<wire x1="2.086" y1="1.678" x2="1.578" y2="2.594" width="0.1524" layer="94"/>
+<wire x1="1.578" y1="2.594" x2="0.516" y2="1.478" width="0.1524" layer="94"/>
+<wire x1="0.516" y1="1.478" x2="2.086" y2="1.678" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="1.808" y2="2.124" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="1.778" x2="1.524" y2="2.413" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.413" x2="0.762" y2="1.651" width="0.254" layer="94"/>
+<wire x1="0.762" y1="1.651" x2="1.778" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="1.778" x2="1.524" y2="2.159" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.159" x2="1.143" y2="1.905" width="0.254" layer="94"/>
+<wire x1="1.143" y1="1.905" x2="1.524" y2="1.905" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
+<symbol name="W25N01GV">
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<pin name="GND" x="-15.24" y="-5.08" length="middle"/>
+<pin name="WP" x="-15.24" y="-2.54" length="middle"/>
+<pin name="DO" x="-15.24" y="0" length="middle"/>
+<pin name="CS" x="-15.24" y="2.54" length="middle"/>
+<pin name="VCC" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="HOLD" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="CLK" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="DI" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<text x="-10.16" y="5.842" size="1.27" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="NVT2006BS">
@@ -184,6 +251,49 @@
 <connect gate="G$1" pin="GND" pad="P15"/>
 <connect gate="G$1" pin="VREFA" pad="P16"/>
 <connect gate="G$1" pin="VREFB" pad="P13"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BC857BV-7">
+<gates>
+<gate name="G$1" symbol="PNP" x="2.54" y="10.16"/>
+<gate name="G$2" symbol="PNP" x="2.54" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="SOT-563">
+<connects>
+<connect gate="G$1" pin="B" pad="B1"/>
+<connect gate="G$1" pin="C" pad="C1"/>
+<connect gate="G$1" pin="E" pad="E1"/>
+<connect gate="G$2" pin="B" pad="B2"/>
+<connect gate="G$2" pin="C" pad="C2"/>
+<connect gate="G$2" pin="E" pad="E2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="W25N01GVZEIG/IT">
+<gates>
+<gate name="G$1" symbol="W25N01GV" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WSON">
+<connects>
+<connect gate="G$1" pin="CLK" pad="P6"/>
+<connect gate="G$1" pin="CS" pad="P1"/>
+<connect gate="G$1" pin="DI" pad="P5"/>
+<connect gate="G$1" pin="DO" pad="P2"/>
+<connect gate="G$1" pin="GND" pad="P4 TH"/>
+<connect gate="G$1" pin="HOLD" pad="P7"/>
+<connect gate="G$1" pin="VCC" pad="P8"/>
+<connect gate="G$1" pin="WP" pad="P3"/>
 </connects>
 <technologies>
 <technology name=""/>
