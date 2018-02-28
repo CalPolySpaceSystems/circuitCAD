@@ -25029,9 +25029,9 @@ part number 2062-2P from STA</description>
 <part name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="65R"/>
 <part name="SJ3" library="CPSS_CONNECTOR" deviceset="SOLBRDG" device=""/>
 <part name="SJ2" library="CPSS_CONNECTOR" deviceset="SOLBRDG" device=""/>
-<part name="RN5" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="4.7K"/>
-<part name="U$1" library="CPSS_IC" deviceset="FFB2222A" device=""/>
-<part name="U$2" library="CPSS_IC" deviceset="FFB2222A" device=""/>
+<part name="RN3" library="resistor-net" library_urn="urn:adsk.eagle:library:343" deviceset="CTS742C083" device="" package3d_urn="urn:adsk.eagle:package:24985/1" value="4.7K"/>
+<part name="Q2" library="CPSS_IC" deviceset="FFB2222A" device=""/>
+<part name="Q1" library="CPSS_IC" deviceset="FFB2222A" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26163,11 +26163,11 @@ part number 2062-2P from STA</description>
 <instance part="RN1" gate="G$1" x="292.1" y="231.14"/>
 <instance part="SJ3" gate="G$1" x="262.89" y="158.75"/>
 <instance part="SJ2" gate="G$1" x="270.51" y="168.91"/>
-<instance part="RN5" gate="G$1" x="330.2" y="201.93" rot="R90"/>
-<instance part="U$1" gate="G$1" x="347.98" y="248.92" rot="R90"/>
-<instance part="U$1" gate="G$2" x="335.28" y="231.14" rot="R90"/>
-<instance part="U$2" gate="G$1" x="322.58" y="223.52" rot="R90"/>
-<instance part="U$2" gate="G$2" x="309.88" y="215.9" rot="R90"/>
+<instance part="RN3" gate="G$1" x="330.2" y="201.93" rot="R90"/>
+<instance part="Q2" gate="G$1" x="347.98" y="248.92" rot="R90"/>
+<instance part="Q2" gate="G$2" x="335.28" y="231.14" rot="R90"/>
+<instance part="Q1" gate="G$1" x="322.58" y="223.52" rot="R90"/>
+<instance part="Q1" gate="G$2" x="309.88" y="215.9" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -26223,7 +26223,7 @@ part number 2062-2P from STA</description>
 <segment>
 <label x="313.69" y="195.58" size="1.778" layer="95"/>
 <wire x1="327.66" y1="195.58" x2="313.69" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="RN5" gate="G$1" pin="1"/>
+<pinref part="RN3" gate="G$1" pin="1"/>
 <wire x1="327.66" y1="195.58" x2="327.66" y2="196.85" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -26666,9 +26666,9 @@ part number 2062-2P from STA</description>
 <wire x1="364.49" y1="218.44" x2="364.49" y2="215.9" width="0.1524" layer="91"/>
 <junction x="364.49" y="218.44"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="U$1" gate="G$2" pin="E"/>
-<pinref part="U$2" gate="G$1" pin="E"/>
-<pinref part="U$2" gate="G$2" pin="E"/>
+<pinref part="Q2" gate="G$2" pin="E"/>
+<pinref part="Q1" gate="G$1" pin="E"/>
+<pinref part="Q1" gate="G$2" pin="E"/>
 <wire x1="353.06" y1="251.46" x2="364.49" y2="251.46" width="0.1524" layer="91"/>
 <wire x1="364.49" y1="251.46" x2="364.49" y2="241.3" width="0.1524" layer="91"/>
 <junction x="364.49" y="233.68"/>
@@ -26678,7 +26678,7 @@ part number 2062-2P from STA</description>
 <wire x1="299.72" y1="233.68" x2="302.26" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="241.3" x2="364.49" y2="241.3" width="0.1524" layer="91"/>
 <junction x="364.49" y="241.3"/>
-<pinref part="U$1" gate="G$1" pin="E"/>
+<pinref part="Q2" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND"/>
@@ -27585,7 +27585,7 @@ part number 2062-2P from STA</description>
 <segment>
 <label x="326.39" y="187.96" size="1.778" layer="95"/>
 <wire x1="326.39" y1="187.96" x2="335.28" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="RN5" gate="G$1" pin="4"/>
+<pinref part="RN3" gate="G$1" pin="4"/>
 <wire x1="335.28" y1="187.96" x2="335.28" y2="196.85" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -27593,7 +27593,7 @@ part number 2062-2P from STA</description>
 <segment>
 <wire x1="342.9" y1="251.46" x2="337.82" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="LS1" gate="G$1" pin="-"/>
-<pinref part="U$1" gate="G$1" pin="C"/>
+<pinref part="Q2" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$39" class="0">
@@ -27612,7 +27612,7 @@ part number 2062-2P from STA</description>
 <segment>
 <label x="318.77" y="193.04" size="1.778" layer="95"/>
 <wire x1="318.77" y1="193.04" x2="330.2" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="RN5" gate="G$1" pin="2"/>
+<pinref part="RN3" gate="G$1" pin="2"/>
 <wire x1="330.2" y1="193.04" x2="330.2" y2="196.85" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -27625,7 +27625,7 @@ part number 2062-2P from STA</description>
 <segment>
 <label x="323.85" y="190.5" size="1.778" layer="95"/>
 <wire x1="332.74" y1="190.5" x2="323.85" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="RN5" gate="G$1" pin="3"/>
+<pinref part="RN3" gate="G$1" pin="3"/>
 <wire x1="332.74" y1="190.5" x2="332.74" y2="196.85" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -28076,7 +28076,7 @@ part number 2062-2P from STA</description>
 <wire x1="304.8" y1="233.68" x2="304.8" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="RN1" gate="G$1" pin="7"/>
 <wire x1="304.8" y1="231.14" x2="299.72" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$2" pin="C"/>
+<pinref part="Q2" gate="G$2" pin="C"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -28085,7 +28085,7 @@ part number 2062-2P from STA</description>
 <wire x1="299.72" y1="228.6" x2="304.8" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="228.6" x2="304.8" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="226.06" x2="317.5" y2="226.06" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="C"/>
+<pinref part="Q1" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -28094,31 +28094,31 @@ part number 2062-2P from STA</description>
 <wire x1="299.72" y1="226.06" x2="302.26" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="226.06" x2="302.26" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="218.44" x2="304.8" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$2" pin="C"/>
+<pinref part="Q1" gate="G$2" pin="C"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="B"/>
+<pinref part="Q1" gate="G$1" pin="B"/>
 <wire x1="322.58" y1="220.98" x2="322.58" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="213.36" x2="332.74" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="RN5" gate="G$1" pin="6"/>
+<pinref part="RN3" gate="G$1" pin="6"/>
 <wire x1="332.74" y1="209.55" x2="332.74" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <wire x1="330.2" y1="210.82" x2="309.88" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$2" pin="B"/>
+<pinref part="Q1" gate="G$2" pin="B"/>
 <wire x1="309.88" y1="213.36" x2="309.88" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="RN5" gate="G$1" pin="7"/>
+<pinref part="RN3" gate="G$1" pin="7"/>
 <wire x1="330.2" y1="209.55" x2="330.2" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="B"/>
-<pinref part="RN5" gate="G$1" pin="8"/>
+<pinref part="Q2" gate="G$1" pin="B"/>
+<pinref part="RN3" gate="G$1" pin="8"/>
 <wire x1="347.98" y1="215.9" x2="347.98" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="209.55" x2="327.66" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="215.9" x2="347.98" y2="215.9" width="0.1524" layer="91"/>
@@ -28126,8 +28126,8 @@ part number 2062-2P from STA</description>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="RN5" gate="G$1" pin="5"/>
-<pinref part="U$1" gate="G$2" pin="B"/>
+<pinref part="RN3" gate="G$1" pin="5"/>
+<pinref part="Q2" gate="G$2" pin="B"/>
 <wire x1="335.28" y1="209.55" x2="335.28" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
