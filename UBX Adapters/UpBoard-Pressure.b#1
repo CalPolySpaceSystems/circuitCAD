@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -296,11 +296,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
 <param name="checkStop" value="0"/>
-<param name="checkValues" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -402,10 +400,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </autorouter>
 <elements>
 <element name="U$1" library="CPSS_CONNECTOR" package="2X08" value="16POS_RIBBON" x="16" y="31" smashed="yes">
-<attribute name="VALUE" x="1.84" y="24.892" size="1.27" layer="27" font="vector"/>
+<attribute name="VALUE" x="1.84" y="24.892" size="1.27" layer="27"/>
 </element>
 <element name="U$2" library="CPSS_CONNECTOR" package="15POS-DSUBSLDR" value="15POSD-SUBSLDR" x="16" y="11.43" smashed="yes">
-<attribute name="VALUE" x="2.73" y="2.97" size="1.27" layer="27" font="vector"/>
+<attribute name="VALUE" x="2.73" y="2.97" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
