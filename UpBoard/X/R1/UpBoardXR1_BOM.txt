@@ -1,0 +1,85 @@
+Partlist
+
+Exported from UpBoardXR1.brd at 3/3/2018 10:47 AM
+
+EAGLE Version 8.5.1 Copyright (c) 1988-2017 Autodesk, Inc.
+
+Assembly variant: 
+
+Part      Value                       Package            Library             Position (mil)        Orientation
+
+C1        10pF                        C0603              resistor            (483.62205 1840.47244) R180
+C2        22pF                        C0603              resistor            (547.24409 2049.6063) R180
+C3        22pF                        C0603              resistor            (547.24409 2246.45669) R180
+C4        22pF                        C0603              resistor            (543.54331 2346.37795) R0
+C5        22pF                        C0603              resistor            (542.83465 2571.5748) R180
+C6        10n                         C0603              resistor            (2356.37795 936.77165) R270
+C7        100n                        C0603              resistor            (1800 1990)           R0
+C8        10uF                        A/3216-18R         resistor            (1846.45669 1297.24409) R180
+C9        10uF                        A/3216-18R         resistor            (1846.45669 1218.50394) R180
+C10       10uF                        A/3216-18R         resistor            (1846.45669 1139.76378) R180
+C11       10uF                        A/3216-18R         resistor            (1846.45669 1061.02362) R180
+C12       10uF                        A/3216-18R         resistor            (1846.45669 982.28346) R180
+CN1       100nF                       1206-4             resistor            (1652.75591 1295.27559) R270
+CN2       100nF                       1206-4             resistor            (1652.75591 1137.79528) R90
+CN3       100nF                       1206-4             resistor            (1652.75591 980.31496) R270
+CN4       100nF                       1206-4             resistor            (1497.79528 1134.72441) R180
+D1                                    SOD323             zetex               (2932.28346 1692.12598) R0
+D2                                    SOD323             zetex               (2931.88976 1841.73228) R0
+ERASE     1000P                       B3U-1000P          switch-omron        (2769.84252 1551.33858) R0
+GND       LSP10                       LSP10              solpad              (913.30709 1375.11811) R180
+IC1       SAM3X8E(ARDUINO)            144-LEAD_LQFP      ATSAM3X             (1100 2031.88976)     R270
+IC2       W25N01GVZEIG/IT             WSON               CPSS_IC             (1993.54331 1792.3622) R90
+JP1       JTAG                        2X05               pinhead             (2256.61417 2290.55118) R90
+JP2       CONFIG                      2X03               pinhead             (2256.61417 1832.28346) R90
+JP3                                   1X02               SparkFun-Connectors (1690 1800)           R0
+L1                                    C0402              resistor            (1498.89764 1022.83465) R0
+L2                                    C0402              resistor            (1496.37795 1262.99213) R0
+L3                                    C0402              resistor            (1495.98425 1325.98425) R0
+LED1                                  CHIPLED_0805       led                 (1960.62992 2119.68504) R90
+LED2                                  CHIPLED_0805       led                 (1963.77953 2253.14961) R90
+LED3                                  CHIPLED_0805       led                 (1964.56693 2385.03937) R90
+LS1       AI-1440-TWT-24V-2-R         AI-1440-TWT-24-2-R UpBoard             (2718.11024 2124.40945) R180
+PS1-1:C1  10nF                        C0603              eagle-ltspice       (1330 1180)           R0
+PS1-1:C2  100nF                       C0603              eagle-ltspice       (710 1190)            R90
+PS1-1:C3  100nF                       C0603              resistor            (903.77953 1204.96063) R90
+PS1-1:C4  1uF                         C0805              eagle-ltspice       (990 1220)            R90
+PS1-1:C5  4.7uF                       C1206              eagle-ltspice       (500 1150)            R0
+PS1-1:C6  4.7uF                       C0805              eagle-ltspice       (820 1220)            R90
+PS1-1:C7  10uF                        C1206              eagle-ltspice       (1277.48031 887.08661) R0
+PS1-1:C8  10uF                        C1206              eagle-ltspice       (550 1290)            R0
+PS1-1:C9  100uF                       C0805              resistor            (1080 1220)           R90
+PS1-1:D1  S10M-TP                     DO-214AB           Power_Utils_Brett   (1274.72441 613.77953) R90
+PS1-1:IC1 TPS2115ADRB                 SON-8              Power_Utils_Brett   (933.07087 994.01575) R270
+PS1-1:L1  LPS6225-103MRB              INDM600X600X240N   Power_Utils_Brett   (1003.14961 750.31496) R180
+PS1-1:L2  Wurth 742792641             R0603              eagle-ltspice       (1190 1180)           R180
+PS1-1:PS1 R-78E5.0-1.0                R-78E5.0-1.0       Power_Utils_Brett   (719.68504 829.92126) R90
+PS1-1:PS2 AZ1117C                     SOT89              UpBoard B           (1250.23622 1032.51969) R270
+PS1-1:R1  330                         R0603              eagle-ltspice       (1015.98425 1090.55118) R0
+PWR                                   CHIPLED_0805       led                 (1252.12598 1309.37008) R270
+Q1        FFB2222A                    SC-88              CPSS_IC             (1645 2285)           R270
+Q2        FFB2222A                    SC-88              CPSS_IC             (1745 2160)           R180
+R1        39                          R0603              resistor            (1430 330)            R90
+R2        39                          R0603              resistor            (1170 300)            R90
+R3        220R                        R0402              resistor            (544.25197 1921.10236) R180
+R4        220R                        R0402              resistor            (1710 1920)           R0
+R5        6.8K                        R0603              resistor            (551.49606 1748.97638) R0
+R6        0R                          R0603              resistor            (2564.96063 1803.93701) R0
+RESET     1000P                       B3U-1000P          switch-omron        (2555.43307 1548.8189) R0
+RN1       65R                         CTS742C083         resistor-net        (1805 2310)           R90
+RN2       4.7K                        CTS742C083         resistor-net        (2056.14173 937.55906) R0
+RN3       4.7K                        CTS742C083         resistor-net        (1680 2425)           R270
+RN4       100K                        CTS742C083         resistor-net        (2207.95276 937.55906) R0
+SD1       CONN_MICROSD                CONN_MICROSD       UpBoard B           (2430.04724 644.93701) R180
+SJ1                                   SJ_2               jumper              (2037.40157 1180.31496) R270
+SJ2       SOLBRDG                     SOLBRDG            CPSS_CONNECTOR      (2660 1470)           R270
+SJ3       SOLBRDG                     SOLBRDG            CPSS_CONNECTOR      (2880 1470)           R270
+X1        16POS_RIBBON                2X08               CPSS_CONNECTOR      (3300 890)            R270
+X2        16POS_RIBBON                2X08               CPSS_CONNECTOR      (3303.14961 2110)     R270
+X3        16POS_RIBBON                2X08               CPSS_CONNECTOR      (200 2110)            R90
+X4        16POS_RIBBON                2X08               CPSS_CONNECTOR      (200 890)             R90
+XA1       DF12-20PIN_CONNECTOR_HEADER DF12-HEADER        IMUPACKAGE          (2918.11024 1389.37008) R180
+XP1       2POSTERMINALBLOCK.25"PITCH  OSTYK22102030      terminal_block      (676.37795 407.87402) R180
+XU1       MICROUSB_5POS_SMT           RECPT_SMT_R/A      CPSS_CONNECTOR      (1300 80)             R0
+Y1        FH1200001                   MINISMD            crystal             (543.54331 2449.13386) R90
+Y2        ABS05                       FC-12M             crystal             (541.33858 2148.4252) R270
