@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.1">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -25066,15 +25066,15 @@ part number 2062-2P from STA</description>
 <text x="294.64" y="19.05" size="2.54" layer="97">Assy:</text>
 <text x="273.05" y="19.05" size="2.54" layer="97">Size:</text>
 <text x="318.77" y="19.05" size="2.54" layer="97">Revision:</text>
-<text x="318.77" y="11.43" size="2.54" layer="97">Sheet 1 of 2</text>
+<text x="318.77" y="11.43" size="2.1844" layer="97">Sheet 1 of 2</text>
 <text x="273.05" y="11.43" size="2.54" layer="97">Date:</text>
 <text x="273.05" y="43.18" size="2.54" layer="97">Sheet Title:</text>
 <text x="273.05" y="31.75" size="2.54" layer="97">Project Title:</text>
 <text x="273.05" y="6.35" size="2.54" layer="97">File: UpBoardXR1.sch</text>
-<text x="293.37" y="43.18" size="3.81" layer="97">UBX Full Schematic</text>
-<text x="297.18" y="31.75" size="3.81" layer="97">UpBoard X</text>
+<text x="298.45" y="43.18" size="2.54" layer="97">UBX Full Schematic</text>
+<text x="302.26" y="31.75" size="3.81" layer="97">UpBoard X</text>
 <text x="284.48" y="19.05" size="3.81" layer="97">B</text>
-<text x="335.28" y="19.05" size="3.81" layer="97">1</text>
+<text x="337.82" y="19.05" size="3.81" layer="97">1</text>
 <text x="0" y="-0.127" size="0.0508" layer="97" font="vector">C:/Users/Patrick Chizek/Pictures/CPSSLOGO.bmp</text>
 <rectangle x1="364.39475" y1="31.52775" x2="370.99875" y2="31.59125" layer="97"/>
 <rectangle x1="375.12625" y1="31.52775" x2="378.36475" y2="31.59125" layer="97"/>
