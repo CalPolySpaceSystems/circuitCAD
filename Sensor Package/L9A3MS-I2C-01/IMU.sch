@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="9.1.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -7797,22 +7797,31 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <pinref part="U$2" gate="G$1" pin="RES"/>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-</segment>
-<segment>
+<pinref part="MS5611" gate="G$1" pin="CSB2"/>
+<wire x1="109.22" y1="78.74" x2="109.22" y2="63.5" width="0.1524" layer="91"/>
+<junction x="109.22" y="48.26"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="63.5" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="63.5" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
 <label x="99.06" y="66.04" size="1.778" layer="95" rot="R90"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="63.5" x2="109.22" y2="63.5" width="0.1524" layer="91"/>
+<junction x="99.06" y="63.5"/>
+<junction x="109.22" y="63.5"/>
 </segment>
 <segment>
 <wire x1="88.9" y1="63.5" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="63.5" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
-<label x="68.58" y="66.04" size="1.778" layer="95" rot="R90"/>
+<label x="63.5" y="78.74" size="1.778" layer="95"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <junction x="68.58" y="63.5"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <junction x="78.74" y="63.5"/>
 <pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="MS5611" gate="G$1" pin="CSB"/>
+<wire x1="78.74" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="78.74" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="78.74" x2="63.5" y2="78.74" width="0.1524" layer="91"/>
+<junction x="68.58" y="78.74"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="1"/>

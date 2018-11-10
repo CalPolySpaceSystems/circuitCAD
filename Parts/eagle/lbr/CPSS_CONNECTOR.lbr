@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -492,7 +492,7 @@
 <text x="-1.3462" y="0.4572" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.7018" y="-0.9652" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="2X5-PTH-1.27MM" urn="urn:adsk.eagle:footprint:37966/1">
+<package name="2X5-PTH-1.27MM" urn="urn:adsk.eagle:footprint:37966/1" locally_modified="yes">
 <description>&lt;h3&gt;Plated Through Hole - 2x5 ARM Cortex Debug Connector (10-pin)&lt;/h3&gt;
 &lt;p&gt;tDoc (51) layer border represents maximum dimensions of plastic housing.&lt;/p&gt;
 &lt;p&gt;Specifications:
@@ -503,23 +503,31 @@
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;CONN_05x2&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="8" x="1.27" y="0.635" drill="0.508" diameter="1"/>
-<pad name="6" x="0" y="0.635" drill="0.508" diameter="1"/>
-<pad name="4" x="-1.27" y="0.635" drill="0.508" diameter="1"/>
-<pad name="2" x="-2.54" y="0.635" drill="0.508" diameter="1"/>
-<pad name="10" x="2.54" y="0.635" drill="0.508" diameter="1"/>
-<pad name="7" x="1.27" y="-0.635" drill="0.508" diameter="1"/>
-<pad name="5" x="0" y="-0.635" drill="0.508" diameter="1"/>
-<pad name="3" x="-1.27" y="-0.635" drill="0.508" diameter="1"/>
-<pad name="1" x="-2.54" y="-0.635" drill="0.508" diameter="1"/>
-<pad name="9" x="2.54" y="-0.635" drill="0.508" diameter="1"/>
-<wire x1="-3.403" y1="-1.021" x2="-3.403" y2="-0.259" width="0.254" layer="21"/>
-<wire x1="3.175" y1="1.715" x2="-3.175" y2="1.715" width="0.127" layer="51"/>
-<wire x1="-3.175" y1="1.715" x2="-3.175" y2="-1.715" width="0.127" layer="51"/>
-<wire x1="-3.175" y1="-1.715" x2="3.175" y2="-1.715" width="0.127" layer="51"/>
-<wire x1="3.175" y1="-1.715" x2="3.175" y2="1.715" width="0.127" layer="51"/>
-<text x="-1.5748" y="1.9304" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.8288" y="-2.4638" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<pad name="8" x="-1.27" y="-0.635" drill="0.508" diameter="1" rot="R180"/>
+<pad name="6" x="0" y="-0.635" drill="0.508" diameter="1" rot="R180"/>
+<pad name="4" x="1.27" y="-0.635" drill="0.508" diameter="1" rot="R180"/>
+<pad name="2" x="2.54" y="-0.635" drill="0.508" diameter="1" rot="R180"/>
+<pad name="10" x="-2.54" y="-0.635" drill="0.508" diameter="1" rot="R180"/>
+<pad name="7" x="-1.27" y="0.635" drill="0.508" diameter="1" rot="R180"/>
+<pad name="5" x="0" y="0.635" drill="0.508" diameter="1" rot="R180"/>
+<pad name="3" x="1.27" y="0.635" drill="0.508" diameter="1" rot="R180"/>
+<pad name="1" x="2.54" y="0.635" drill="0.508" diameter="1" rot="R180"/>
+<pad name="9" x="-2.54" y="0.635" drill="0.508" diameter="1" rot="R180"/>
+<wire x1="3.403" y1="1.021" x2="3.403" y2="0.259" width="0.254" layer="21"/>
+<text x="1.3208" y="2.7686" size="0.6096" layer="25" font="vector" ratio="20" rot="R180">&gt;NAME</text>
+<text x="1.5748" y="-7.5052" size="0.6096" layer="27" font="vector" ratio="20" rot="R180">&gt;VALUE</text>
+<wire x1="-6" y1="-1.5" x2="-6" y2="-6" width="0.127" layer="21"/>
+<wire x1="-6" y1="-6" x2="-1" y2="-6" width="0.127" layer="21"/>
+<wire x1="-1" y1="-6" x2="1" y2="-6" width="0.127" layer="21"/>
+<wire x1="1" y1="-6" x2="6" y2="-6" width="0.127" layer="21"/>
+<wire x1="6" y1="-6" x2="6" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="6" y1="-1.5" x2="-6" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-1" y1="-6" x2="-1" y2="-5" width="0.127" layer="21"/>
+<wire x1="-1" y1="-5" x2="1" y2="-5" width="0.127" layer="21"/>
+<wire x1="1" y1="-5" x2="1" y2="-6" width="0.127" layer="21"/>
+<wire x1="0" y1="-3" x2="0" y2="-4" width="0.127" layer="27"/>
+<wire x1="0" y1="-4" x2="0.4" y2="-3.6" width="0.127" layer="27"/>
+<wire x1="0" y1="-4" x2="-0.4" y2="-3.6" width="0.127" layer="27"/>
 </package>
 </packages>
 <symbols>
