@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -62,7 +62,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -76,7 +76,7 @@
 <wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="21"/>
 <wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
 <wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="21"/>
-<circle x="-1.5" y="1.5" radius="0.14141875" width="0.127" layer="21"/>
+<circle x="-2.8" y="2.8" radius="0.14141875" width="0.127" layer="21"/>
 <smd name="P9" x="1.9" y="-0.975" dx="0.3" dy="0.8" layer="1" rot="R90"/>
 <smd name="P12" x="1.9" y="0.975" dx="0.3" dy="0.8" layer="1" rot="R90"/>
 <smd name="P11" x="1.9" y="0.325" dx="0.3" dy="0.8" layer="1" rot="R90"/>
@@ -93,19 +93,11 @@
 <smd name="P7" x="0.325" y="-1.9" dx="0.3" dy="0.8" layer="1" rot="R180"/>
 <smd name="P14" x="0.325" y="1.9" dx="0.3" dy="0.8" layer="1" rot="R180"/>
 <smd name="P13" x="0.975" y="1.9" dx="0.3" dy="0.8" layer="1" rot="R180"/>
-<text x="-3" y="3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="4" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-4" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-0.5" y1="0.9" x2="-0.5" y2="-0.45" width="0.127" layer="27"/>
-<wire x1="-0.5" y1="-0.45" x2="0.9" y2="-0.45" width="0.127" layer="27"/>
-<circle x="-0.5" y="-0.45" radius="0.111803125" width="0.127" layer="27"/>
-<wire x1="-0.5" y1="0.9" x2="-0.6" y2="0.8" width="0.127" layer="27"/>
-<wire x1="0.9" y1="-0.45" x2="0.8" y2="-0.35" width="0.127" layer="27"/>
-<text x="-0.4" y="0.7" size="0.254" layer="27">Y</text>
-<text x="0.7" y="-0.8" size="0.254" layer="27">X</text>
-<text x="-0.85" y="-0.9" size="0.254" layer="27">Z</text>
-<rectangle x1="-1.7" y1="-1.7" x2="1.7" y2="1.7" layer="41"/>
+<rectangle x1="-1.4" y1="-1.4" x2="1.4" y2="1.4" layer="41"/>
 </package>
-<package name="LGA">
+<package name="LGA-24">
 <wire x1="1.5" y1="1.75" x2="1.5" y2="-1.75" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-1.75" x2="-1.5" y2="-1.75" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-1.75" x2="-1.5" y2="1.75" width="0.127" layer="21"/>
@@ -134,42 +126,76 @@
 <smd name="P11" x="-1.425" y="-0.645" dx="0.75" dy="0.23" layer="1"/>
 <smd name="P12" x="-1.425" y="-1.075" dx="0.75" dy="0.23" layer="1"/>
 <smd name="P13" x="-1.425" y="-1.505" dx="0.75" dy="0.23" layer="1"/>
-<circle x="0.7" y="1" radius="0.22360625" width="0.127" layer="21"/>
-<wire x1="-0.8" y1="0" x2="0.1" y2="0" width="0.127" layer="27"/>
-<wire x1="0.1" y1="0" x2="0.2" y2="0" width="0.127" layer="27"/>
-<wire x1="0.2" y1="0" x2="0.2" y2="-0.1" width="0.127" layer="27"/>
-<circle x="0.2" y="0" radius="0.1" width="0.127" layer="27"/>
-<wire x1="0.2" y1="-0.1" x2="0.2" y2="-1" width="0.127" layer="27"/>
-<wire x1="-0.8" y1="0" x2="-0.7" y2="-0.1" width="0.127" layer="27"/>
-<wire x1="0.2" y1="-1" x2="0.3" y2="-0.9" width="0.127" layer="27"/>
-<wire x1="0.2" y1="-0.1" x2="0.4" y2="-0.1" width="0.127" layer="27"/>
-<wire x1="0.4" y1="-0.1" x2="0.5" y2="0" width="0.127" layer="27"/>
-<wire x1="0.5" y1="0" x2="0.4" y2="0.1" width="0.127" layer="27"/>
-<wire x1="0.4" y1="0.1" x2="0.2" y2="0.1" width="0.127" layer="27"/>
-<wire x1="0.3" y1="0" x2="0.3" y2="0.2" width="0.127" layer="27"/>
-<wire x1="0.3" y1="0.2" x2="0.2" y2="0.3" width="0.127" layer="27"/>
-<wire x1="0.2" y1="0.3" x2="0.1" y2="0.2" width="0.127" layer="27"/>
-<wire x1="0.1" y1="0.2" x2="0.1" y2="0" width="0.127" layer="27"/>
-<text x="-0.3" y="-1" size="0.15" layer="27">AGX</text>
-<text x="-0.8" y="0.1" size="0.15" layer="27">AGY</text>
-<text x="0.1" y="0.4" size="0.15" layer="27">MX</text>
-<text x="0.6" y="-0.1" size="0.15" layer="27">MY</text>
-<text x="-0.1" y="-0.3" size="0.15" layer="27">Z</text>
+<circle x="2.113" y="2.54" radius="0.22360625" width="0.127" layer="21"/>
+<rectangle x1="-1.016" y1="-1.27" x2="1.016" y2="1.27" layer="41"/>
+<text x="-3" y="4" size="1.27" layer="25">&gt;NAME</text>
 </package>
-<package name="01BA03">
-<smd name="SDO" x="1.1" y="-0.625" dx="1.1" dy="0.6" layer="1"/>
-<smd name="SDI/SDA" x="1.1" y="0.625" dx="1.1" dy="0.6" layer="1"/>
-<smd name="SCL" x="1.1" y="1.875" dx="1.1" dy="0.6" layer="1"/>
-<smd name="CSB2" x="1.1" y="-1.875" dx="1.1" dy="0.6" layer="1"/>
-<smd name="PS" x="-1.1" y="0.625" dx="1.1" dy="0.6" layer="1"/>
-<smd name="VDD" x="-1.1" y="1.875" dx="1.1" dy="0.6" layer="1"/>
-<smd name="GND" x="-1.1" y="-0.625" dx="1.1" dy="0.6" layer="1"/>
-<smd name="CSB1" x="-1.1" y="-1.875" dx="1.1" dy="0.6" layer="1"/>
+<package name="MS56XX">
+<smd name="P$6" x="1.4" y="-0.625" dx="1.6" dy="0.6" layer="1"/>
+<smd name="P$7" x="1.4" y="0.625" dx="1.6" dy="0.6" layer="1"/>
+<smd name="P$8" x="1.4" y="1.875" dx="1.6" dy="0.6" layer="1"/>
+<smd name="P$5" x="1.4" y="-1.875" dx="1.6" dy="0.6" layer="1"/>
+<smd name="P$2" x="-1.4" y="0.625" dx="1.6" dy="0.6" layer="1"/>
+<smd name="P$1" x="-1.4" y="1.875" dx="1.6" dy="0.6" layer="1"/>
+<smd name="P$3" x="-1.4" y="-0.625" dx="1.6" dy="0.6" layer="1"/>
+<smd name="P$4" x="-1.4" y="-1.875" dx="1.6" dy="0.6" layer="1"/>
 <wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="1.5" y1="-2.5" x2="-1.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="-2.5" x2="-1.5" y2="2.5" width="0.127" layer="21"/>
-<circle x="-1" y="2.5" radius="0.1" width="0.254" layer="21"/>
+<text x="-2" y="5" size="1.27" layer="25">&gt;NAME</text>
+<rectangle x1="-0.508" y1="-2.159" x2="0.508" y2="2.159" layer="41"/>
+<rectangle x1="-1.397" y1="-0.254" x2="-0.508" y2="0.254" layer="41"/>
+<rectangle x1="0.508" y1="-0.254" x2="1.397" y2="0.254" layer="41"/>
+<rectangle x1="0.508" y1="1.016" x2="1.397" y2="1.524" layer="41"/>
+<rectangle x1="-1.397" y1="1.016" x2="-0.508" y2="1.524" layer="41"/>
+<rectangle x1="-1.397" y1="-1.524" x2="-0.508" y2="-1.016" layer="41"/>
+<rectangle x1="0.508" y1="-1.524" x2="1.397" y2="-1.016" layer="41"/>
+<circle x="-2.032" y="3.175" radius="0.283978125" width="0.127" layer="21"/>
+</package>
+<package name="LGA-14">
+<wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.25" x2="1.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.25" x2="-1.5" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.25" x2="-1.5" y2="1.25" width="0.127" layer="21"/>
+<circle x="-2" y="2" radius="0.15" width="0.127" layer="21"/>
+<smd name="P10" x="1.5" y="0.25" dx="1" dy="0.25" layer="1"/>
+<smd name="P11" x="1.5" y="0.75" dx="1" dy="0.25" layer="1"/>
+<smd name="P9" x="1.5" y="-0.25" dx="1" dy="0.25" layer="1"/>
+<smd name="P8" x="1.5" y="-0.75" dx="1" dy="0.25" layer="1"/>
+<smd name="P13" x="0" y="1.25" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="P12" x="0.5" y="1.25" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="P14" x="-0.5" y="1.25" dx="1" dy="0.25" layer="1" rot="R90"/>
+<smd name="P3" x="-1.5" y="-0.25" dx="1" dy="0.25" layer="1" rot="R180"/>
+<smd name="P4" x="-1.5" y="-0.75" dx="1" dy="0.25" layer="1" rot="R180"/>
+<smd name="P2" x="-1.5" y="0.25" dx="1" dy="0.25" layer="1" rot="R180"/>
+<smd name="P1" x="-1.5" y="0.75" dx="1" dy="0.25" layer="1" rot="R180"/>
+<smd name="P6" x="0" y="-1.25" dx="1" dy="0.25" layer="1" rot="R270"/>
+<smd name="P5" x="-0.5" y="-1.25" dx="1" dy="0.25" layer="1" rot="R270"/>
+<smd name="P7" x="0.5" y="-1.25" dx="1" dy="0.25" layer="1" rot="R270"/>
+<rectangle x1="-0.95" y1="-0.7" x2="0.95" y2="0.7" layer="41"/>
+<text x="-3" y="3" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="LGA-12">
+<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="25"/>
+<wire x1="-1" y1="1" x2="1" y2="1" width="0.127" layer="25"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.127" layer="25"/>
+<wire x1="1" y1="-1" x2="-1" y2="-1" width="0.127" layer="25"/>
+<circle x="-2" y="2" radius="0.2" width="0.127" layer="25"/>
+<smd name="P$1" x="-1" y="0.75" dx="0.8" dy="0.25" layer="1"/>
+<smd name="P$2" x="-1" y="0.25" dx="0.8" dy="0.25" layer="1"/>
+<smd name="P$3" x="-1" y="-0.25" dx="0.8" dy="0.25" layer="1"/>
+<smd name="P$4" x="-1" y="-0.75" dx="0.8" dy="0.25" layer="1"/>
+<smd name="P$5" x="-0.25" y="-1" dx="0.8" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$6" x="0.25" y="-1" dx="0.8" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$7" x="1" y="-0.75" dx="0.8" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$8" x="1" y="-0.25" dx="0.8" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$9" x="1" y="0.25" dx="0.8" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$10" x="1" y="0.75" dx="0.8" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$11" x="0.25" y="1" dx="0.8" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$12" x="-0.25" y="1" dx="0.8" dy="0.25" layer="1" rot="R270"/>
+<rectangle x1="-0.55" y1="-0.55" x2="0.55" y2="0.55" layer="41"/>
+<text x="-2" y="3" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -309,42 +335,59 @@
 <text x="-5.08" y="35.56" size="1.6764" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-38.1" size="1.6764" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="MS5611">
-<wire x1="7.62" y1="10.16" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<circle x="-6.604" y="9.144" radius="0.803215625" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="2.54" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="12.7" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
-<pin name="P8" x="12.7" y="7.62" length="middle" direction="in" function="clk" rot="R180"/>
-<pin name="P7" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="P6" x="12.7" y="-2.54" length="middle" direction="out" rot="R180"/>
-<pin name="P5" x="12.7" y="-7.62" length="middle" direction="in" rot="R180"/>
-<pin name="P4" x="-12.7" y="-7.62" length="middle" direction="in"/>
-<pin name="P3" x="-12.7" y="-2.54" length="middle" direction="sup"/>
-<pin name="P2" x="-12.7" y="2.54" length="middle" direction="in"/>
-<pin name="P1" x="-12.7" y="7.62" length="middle" direction="pwr"/>
+<symbol name="MS56XX">
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="SCK/SCL" x="15.24" y="5.08" length="middle" direction="in" function="clk" rot="R180"/>
+<pin name="SDI/SDA" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="SDO" x="15.24" y="-5.08" length="middle" direction="out" rot="R180"/>
+<pin name="CSB" x="-15.24" y="-7.62" length="middle" direction="in"/>
+<pin name="GND" x="-15.24" y="-2.54" length="middle" direction="sup"/>
+<pin name="PS" x="-15.24" y="2.54" length="middle" direction="in"/>
+<pin name="VDD" x="-15.24" y="7.62" length="middle" direction="pwr"/>
 <text x="-4.318" y="15.494" size="1.6764" layer="95">&gt;NAME</text>
 <text x="-4.318" y="-17.272" size="1.6764" layer="96">&gt;VALUE</text>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="LSM6DSL">
+<wire x1="-12.7" y1="-10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<pin name="VDD" x="-17.78" y="7.62" length="middle"/>
+<pin name="VDDIO" x="-17.78" y="5.08" length="middle"/>
+<pin name="GND" x="-17.78" y="0" length="middle"/>
+<pin name="INT1" x="-17.78" y="-5.08" length="middle"/>
+<pin name="INT2" x="-17.78" y="-7.62" length="middle"/>
+<pin name="CS" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="SCX" x="17.78" y="-5.08" length="middle" function="clk" rot="R180"/>
+<pin name="SDX" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="SDA" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="SCL" x="17.78" y="7.62" length="middle" function="clk" rot="R180"/>
+<pin name="SDO/SA0" x="17.78" y="0" length="middle" rot="R180"/>
+<text x="-12.7" y="12.7" size="1.27" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="LIS2MDL">
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<pin name="VDD" x="-17.78" y="7.62" length="middle"/>
+<pin name="VDDIO" x="-17.78" y="5.08" length="middle"/>
+<pin name="GND" x="-17.78" y="0" length="middle"/>
+<pin name="C1" x="-17.78" y="-5.08" length="middle"/>
+<pin name="SCL/SPC" x="17.78" y="7.62" length="middle" function="clk" rot="R180"/>
+<pin name="SDA/SDIO" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="INT/DRDY" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="CS" x="17.78" y="0" length="middle" rot="R180"/>
+<text x="-12.7" y="12.7" size="1.27" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="A3G4250D">
+<deviceset name="A3G4250D" prefix="U">
 <gates>
 <gate name="G$1" symbol="A3G4250D" x="0" y="0"/>
 </gates>
@@ -374,14 +417,14 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LSM9DS1TR">
+<deviceset name="LSM9DS1" prefix="U">
 <description>STMicroelectronics iNEMO inertial module.
 Includes Accelerometer, Gyroscope, Magnetometer.</description>
 <gates>
 <gate name="G$1" symbol="LSM9DS1TR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="LGA">
+<device name="" package="LGA-24">
 <connects>
 <connect gate="G$1" pin="C1" pad="P24"/>
 <connect gate="G$1" pin="CAP" pad="P21"/>
@@ -414,22 +457,68 @@ Includes Accelerometer, Gyroscope, Magnetometer.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MS5611-01BA03">
+<deviceset name="MS56XX-0XBA0X" prefix="U">
 <description>TE Connnectivity MS5611-01BA03 Barometer</description>
 <gates>
-<gate name="G$1" symbol="MS5611" x="0" y="0"/>
+<gate name="G$1" symbol="MS56XX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="01BA03">
+<device name="" package="MS56XX">
 <connects>
-<connect gate="G$1" pin="P1" pad="VDD"/>
-<connect gate="G$1" pin="P2" pad="PS"/>
-<connect gate="G$1" pin="P3" pad="GND"/>
-<connect gate="G$1" pin="P4" pad="CSB1"/>
-<connect gate="G$1" pin="P5" pad="CSB2"/>
-<connect gate="G$1" pin="P6" pad="SDO"/>
-<connect gate="G$1" pin="P7" pad="SDI/SDA"/>
-<connect gate="G$1" pin="P8" pad="SCL"/>
+<connect gate="G$1" pin="CSB" pad="P$4 P$5"/>
+<connect gate="G$1" pin="GND" pad="P$3"/>
+<connect gate="G$1" pin="PS" pad="P$2"/>
+<connect gate="G$1" pin="SCK/SCL" pad="P$8"/>
+<connect gate="G$1" pin="SDI/SDA" pad="P$7"/>
+<connect gate="G$1" pin="SDO" pad="P$6"/>
+<connect gate="G$1" pin="VDD" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LIS2MDL" prefix="U">
+<gates>
+<gate name="G$1" symbol="LIS2MDL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LGA-12">
+<connects>
+<connect gate="G$1" pin="C1" pad="P$5"/>
+<connect gate="G$1" pin="CS" pad="P$3"/>
+<connect gate="G$1" pin="GND" pad="P$6 P$8"/>
+<connect gate="G$1" pin="INT/DRDY" pad="P$7"/>
+<connect gate="G$1" pin="SCL/SPC" pad="P$1"/>
+<connect gate="G$1" pin="SDA/SDIO" pad="P$4"/>
+<connect gate="G$1" pin="VDD" pad="P$9"/>
+<connect gate="G$1" pin="VDDIO" pad="P$10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LSM6DSL" prefix="U">
+<gates>
+<gate name="G$1" symbol="LSM6DSL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LGA-14">
+<connects>
+<connect gate="G$1" pin="CS" pad="P12"/>
+<connect gate="G$1" pin="GND" pad="P6 P7"/>
+<connect gate="G$1" pin="INT1" pad="P4"/>
+<connect gate="G$1" pin="INT2" pad="P9"/>
+<connect gate="G$1" pin="SCL" pad="P13"/>
+<connect gate="G$1" pin="SCX" pad="P3"/>
+<connect gate="G$1" pin="SDA" pad="P14"/>
+<connect gate="G$1" pin="SDO/SA0" pad="P1"/>
+<connect gate="G$1" pin="SDX" pad="P2"/>
+<connect gate="G$1" pin="VDD" pad="P8"/>
+<connect gate="G$1" pin="VDDIO" pad="P5"/>
 </connects>
 <technologies>
 <technology name=""/>
