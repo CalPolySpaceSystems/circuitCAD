@@ -967,8 +967,8 @@ touch button, slider and wheel user interfaces.&lt;/p&gt;</description>
 <pin name="PD5" x="60.96" y="40.64" length="middle" rot="R180"/>
 <pin name="PD6" x="60.96" y="38.1" length="middle" rot="R180"/>
 <pin name="PD7" x="60.96" y="35.56" length="middle" rot="R180"/>
-<pin name="PD8" x="60.96" y="33.02" length="middle" rot="R180"/>
-<pin name="PD9" x="60.96" y="30.48" length="middle" rot="R180"/>
+<pin name="PD8/UART3_TX" x="60.96" y="33.02" length="middle" rot="R180"/>
+<pin name="PD9/UART3_RX" x="60.96" y="30.48" length="middle" rot="R180"/>
 <pin name="PD10" x="60.96" y="27.94" length="middle" rot="R180"/>
 <pin name="PD11" x="60.96" y="25.4" length="middle" rot="R180"/>
 <pin name="PD12" x="60.96" y="22.86" length="middle" rot="R180"/>
@@ -1382,8 +1382,8 @@ touch button, slider and wheel user interfaces.&lt;/p&gt;
 <connect gate="G$1" pin="PD5" pad="P$86"/>
 <connect gate="G$1" pin="PD6" pad="P$87"/>
 <connect gate="G$1" pin="PD7" pad="P$88"/>
-<connect gate="G$1" pin="PD8" pad="P$55"/>
-<connect gate="G$1" pin="PD9" pad="P$56"/>
+<connect gate="G$1" pin="PD8/UART3_TX" pad="P$55"/>
+<connect gate="G$1" pin="PD9/UART3_RX" pad="P$56"/>
 <connect gate="G$1" pin="PE0" pad="P$97"/>
 <connect gate="G$1" pin="PE1" pad="P$98"/>
 <connect gate="G$1" pin="PE10" pad="P$41"/>
