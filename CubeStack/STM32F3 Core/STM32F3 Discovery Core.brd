@@ -232,6 +232,7 @@
 <wire x1="27.432" y1="33.274" x2="29.464" y2="33.274" width="0.254" layer="41"/>
 <wire x1="24.13" y1="15.748" x2="23.876" y2="16.002" width="0.254" layer="42"/>
 <wire x1="23.876" y1="16.002" x2="23.876" y2="16.256" width="0.254" layer="42"/>
+<text x="19.05" y="34.29" size="0.8128" layer="25" rot="R90">BOOT</text>
 </plain>
 <libraries>
 <library name="resistor" urn="urn:adsk.eagle:library:348">
@@ -3086,6 +3087,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="0.762" y="32.766" extent="1-16" drill="0.35"/>
 <via x="0.762" y="36.322" extent="1-16" drill="0.35"/>
 <via x="0.762" y="39.878" extent="1-16" drill="0.35"/>
+<via x="7.747" y="5.588" extent="1-16" drill="0.35"/>
+<via x="7.747" y="32.512" extent="1-16" drill="0.35"/>
+<via x="9.779" y="34.29" extent="1-16" drill="0.35"/>
+<via x="7.747" y="24.13" extent="1-16" drill="0.35"/>
+<via x="7.747" y="14.732" extent="1-16" drill="0.35"/>
+<via x="14.097" y="50.546" extent="1-16" drill="0.35"/>
+<via x="8.763" y="48.514" extent="1-16" drill="0.35"/>
+<via x="6.985" y="45.974" extent="1-16" drill="0.35"/>
+<via x="6.477" y="43.18" extent="1-16" drill="0.35"/>
+<via x="11.557" y="9.398" extent="1-16" drill="0.35"/>
+<via x="46.101" y="25.4" extent="1-16" drill="0.35"/>
+<via x="46.101" y="17.526" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="RESET">
 <contactref element="C8" pad="1"/>
