@@ -1,11 +1,21 @@
-# EAGLE Parts
-In order to correctly use these libraries and design blocks, you must do the following:
+# EAGLE Resources
+This collection currently contains:
+* Parts Libraries
+* Design Blocks 
+* CAM Jobs
+<p>
+See each directory's README for more information.
 
-1. Open EAGLE. Go to the EAGLE control panel.
-2. On the top toolbar, select options->directories.
-3. Select the text box next to "Libraries" and press "Browse..." at the bottom.
-4. In the dialog, navigate to the location that this repository is cloned to.
-5. Select the `.../Parts/eagle/lbr` folder. 
-6. Repeat steps 3-5 for the "Design Blocks" selection.
+# How to Use These Resources
+In order to seamlessly import these resources into your EAGLE environment, follow these steps.
 
-Now, in addition to the `$EAGLEDIR\lbr` directory, EAGLE will also search in those locations for library and design block files. You will have to do this every time you update EAGLE, as each update installs to a different directory.
+1. Clone this repository to your machine 
+2. Open EAGLE. Go to the EAGLE control panel.
+3. On the toolbar, select `options->directories`. This controls which directories EAGLE will look for files in. 
+4. Add the locations of additional dependencies by placing a semicolon after the default directory followed by the local directory of the dependency.<p>
+  
+<b>Windows:</b>
+<a href="https://imgur.com/tBfDsb9"><img src="https://i.imgur.com/tBfDsb9.png" title="Example" /></a>
+
+5. Do this for all resource folders you wish to have access to in EAGLE.
+6. Restart EAGLE.
