@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-01-13T00:28:09Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.671119,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "SB2"
+        },
+        "Owner": "Patrick Chizek <patrick.chizek@comcast.net>",
+        "Size": {
+            "X": 63.5,
+            "Y": 76.2
+        }
+    }
+}
