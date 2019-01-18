@@ -1,6 +1,6 @@
 # Circuit CAD
 
-This repository has two main parts
+This repository contains Cal Poly Space Systems' circuit board Design files. This includes designed PCBs as well as resources for designing them. 
 
 # Projects
 
