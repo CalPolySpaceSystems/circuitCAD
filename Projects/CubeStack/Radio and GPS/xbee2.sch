@@ -3,7 +3,7 @@
 <eagle version="9.2.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -4956,31 +4956,31 @@ Source: VISHAY wscwsn.pdf</description>
 <wire x1="1.9812" y1="-1.9812" x2="1.9812" y2="1.9812" width="0.1524" layer="51"/>
 <wire x1="1.9812" y1="1.9812" x2="-1.9812" y2="1.9812" width="0.1524" layer="51"/>
 <wire x1="-1.9812" y1="1.9812" x2="-1.9812" y2="-1.9812" width="0.1524" layer="51"/>
-<smd name="1" x="-1.8923" y="1.25" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="1" x="-1.8923" y="1.2246" dx="0.254" dy="0.8128" layer="1" rot="R270"/>
 <smd name="2" x="-1.8923" y="0.75" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
 <smd name="3" x="-1.8923" y="0.25" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
 <smd name="4" x="-1.8923" y="-0.25" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
 <smd name="5" x="-1.8923" y="-0.75" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
-<smd name="6" x="-1.8923" y="-1.25" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
-<smd name="7" x="-1.25" y="-1.8923" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
+<smd name="6" x="-1.8923" y="-1.2246" dx="0.254" dy="0.8128" layer="1" rot="R270"/>
+<smd name="7" x="-1.2246" y="-1.8923" dx="0.254" dy="0.8128" layer="1" rot="R180"/>
 <smd name="8" x="-0.75" y="-1.8923" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
 <smd name="9" x="-0.25" y="-1.8923" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
 <smd name="10" x="0.25" y="-1.8923" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
 <smd name="11" x="0.75" y="-1.8923" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
-<smd name="12" x="1.25" y="-1.8923" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
-<smd name="13" x="1.8923" y="-1.25" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
+<smd name="12" x="1.2246" y="-1.8923" dx="0.254" dy="0.8128" layer="1" rot="R180"/>
+<smd name="13" x="1.8923" y="-1.2246" dx="0.254" dy="0.8128" layer="1" rot="R270"/>
 <smd name="14" x="1.8923" y="-0.75" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
 <smd name="15" x="1.8923" y="-0.25" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
 <smd name="16" x="1.8923" y="0.25" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
 <smd name="17" x="1.8923" y="0.75" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
-<smd name="18" x="1.8923" y="1.25" dx="0.3048" dy="0.8128" layer="1" rot="R270"/>
-<smd name="19" x="1.25" y="1.8923" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
+<smd name="18" x="1.8923" y="1.2246" dx="0.254" dy="0.8128" layer="1" rot="R270"/>
+<smd name="19" x="1.2246" y="1.8923" dx="0.254" dy="0.8128" layer="1" rot="R180"/>
 <smd name="20" x="0.75" y="1.8923" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
 <smd name="21" x="0.25" y="1.8923" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
 <smd name="22" x="-0.25" y="1.8923" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
 <smd name="23" x="-0.75" y="1.8923" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
-<smd name="24" x="-1.25" y="1.8923" dx="0.3048" dy="0.8128" layer="1" rot="R180"/>
-<smd name="25" x="0" y="0" dx="2.794" dy="2.794" layer="1"/>
+<smd name="24" x="-1.2246" y="1.8923" dx="0.254" dy="0.8128" layer="1" rot="R180"/>
+<smd name="25" x="0" y="0" dx="2.667" dy="2.667" layer="1"/>
 <text x="-3.5052" y="1.2446" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-3.5052" y="1.2446" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <polygon width="0.0254" layer="21">
@@ -5059,12 +5059,12 @@ Source: VISHAY wscwsn.pdf</description>
 <smd name="2" x="-0.6" y="0.25" dx="0.58" dy="0.25" layer="1"/>
 <smd name="3" x="-0.6" y="-0.25" dx="0.58" dy="0.25" layer="1"/>
 <smd name="4" x="-0.6" y="-0.75" dx="0.58" dy="0.25" layer="1"/>
-<smd name="5" x="0" y="-0.85" dx="0.63" dy="0.35" layer="1" rot="R90"/>
+<smd name="5" x="0" y="-0.85" dx="0.63" dy="0.3" layer="1" rot="R90"/>
 <smd name="6" x="0.6" y="-0.75" dx="0.58" dy="0.25" layer="1"/>
 <smd name="7" x="0.6" y="-0.25" dx="0.58" dy="0.25" layer="1"/>
 <smd name="8" x="0.6" y="0.25" dx="0.58" dy="0.25" layer="1"/>
 <smd name="9" x="0.6" y="0.75" dx="0.58" dy="0.25" layer="1"/>
-<smd name="10" x="0" y="0.85" dx="0.63" dy="0.35" layer="1" rot="R90"/>
+<smd name="10" x="0" y="0.85" dx="0.63" dy="0.3" layer="1" rot="R90"/>
 <text x="0" y="1.905" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.54" size="0.6096" layer="27" font="vector" ratio="20" align="bottom-center">&gt;VALUE</text>
 <polygon width="0.127" layer="21">
@@ -8450,19 +8450,19 @@ Passes up to 5.5V at 3.3V supply&lt;br&gt;
 <part name="R12" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402" value="10k"/>
 <part name="R13" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402" value="10k"/>
 <part name="U5" library="xbee2" deviceset="CPSS_IC_TPS2121RUXR" device="" value="Value"/>
-<part name="R14" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402"/>
-<part name="R15" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402"/>
+<part name="R14" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402" value="6.1k"/>
+<part name="R15" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402" value="5k"/>
 <part name="SUPPLY12" library="xbee2" deviceset="SUPPLY2_GND" device=""/>
-<part name="R16" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402"/>
-<part name="R17" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402"/>
+<part name="R16" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402" value="56.3k"/>
+<part name="R17" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402" value="5k"/>
 <part name="SUPPLY13" library="xbee2" deviceset="SUPPLY2_GND" device=""/>
-<part name="R18" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402"/>
-<part name="R19" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402"/>
+<part name="R18" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402" value="10.2k"/>
+<part name="R19" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402" value="5k"/>
 <part name="SUPPLY14" library="xbee2" deviceset="SUPPLY2_GND" device=""/>
-<part name="R20" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402"/>
-<part name="R21" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402"/>
+<part name="R20" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402" value="23.7k"/>
+<part name="R21" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402" value="5k"/>
 <part name="SUPPLY15" library="xbee2" deviceset="SUPPLY2_GND" device=""/>
-<part name="R22" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402"/>
+<part name="R22" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402" value="26R"/>
 <part name="C10" library="xbee2" deviceset="RESISTOR_C-US" device="C0402" value="1uF"/>
 <part name="SUPPLY16" library="xbee2" deviceset="SUPPLY2_GND" device=""/>
 <part name="R23" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402"/>
@@ -8506,6 +8506,7 @@ Passes up to 5.5V at 3.3V supply&lt;br&gt;
 <part name="SJ6" library="xbee2" deviceset="JUMPER_SJ2W" device=""/>
 <part name="SJ7" library="xbee2" deviceset="JUMPER_SJ2W" device=""/>
 <part name="SJ8" library="xbee2" deviceset="JUMPER_SJ2W" device=""/>
+<part name="R29" library="xbee2" deviceset="RESISTOR_R-US_" device="R0402" value="698k"/>
 </parts>
 <sheets>
 <sheet>
@@ -8699,44 +8700,44 @@ Passes up to 5.5V at 3.3V supply&lt;br&gt;
 </instance>
 <instance part="R14" gate="G$1" x="-60.96" y="312.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="-57.3786" y="311.15" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-57.658" y="308.61" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-62.738" y="308.61" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R15" gate="G$1" x="-60.96" y="302.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="-57.3786" y="300.99" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-57.658" y="298.45" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-62.738" y="298.45" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY12" gate="GND" x="-60.96" y="294.64" smashed="yes">
 <attribute name="VALUE" x="-62.865" y="291.465" size="1.778" layer="96"/>
 </instance>
 <instance part="R16" gate="G$1" x="-45.72" y="312.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="-42.1386" y="311.15" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-42.418" y="308.61" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-47.498" y="308.61" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R17" gate="G$1" x="-45.72" y="302.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="-42.1386" y="300.99" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-42.418" y="298.45" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-47.498" y="300.99" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY13" gate="GND" x="-45.72" y="294.64" smashed="yes">
 <attribute name="VALUE" x="-47.625" y="291.465" size="1.778" layer="96"/>
 </instance>
 <instance part="R18" gate="G$1" x="-104.14" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="-100.5586" y="242.57" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-100.838" y="240.03" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-105.918" y="240.03" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R19" gate="G$1" x="-104.14" y="233.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="-100.5586" y="232.41" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-100.838" y="229.87" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-105.918" y="229.87" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY14" gate="GND" x="-104.14" y="226.06" smashed="yes">
 <attribute name="VALUE" x="-106.045" y="222.885" size="1.778" layer="96"/>
 </instance>
 <instance part="R20" gate="G$1" x="-91.44" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="-87.8586" y="242.57" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-88.138" y="240.03" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-93.218" y="240.03" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R21" gate="G$1" x="-91.44" y="233.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="-87.8586" y="232.41" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-88.138" y="229.87" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-93.218" y="232.41" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY15" gate="GND" x="-91.44" y="226.06" smashed="yes">
 <attribute name="VALUE" x="-93.345" y="222.885" size="1.778" layer="96"/>
@@ -8789,12 +8790,12 @@ Passes up to 5.5V at 3.3V supply&lt;br&gt;
 <attribute name="NAME" x="-49.3014" y="156.21" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="-43.942" y="156.21" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R26" gate="G$1" x="-45.72" y="142.24" smashed="yes" rot="R270">
-<attribute name="NAME" x="-49.3014" y="143.51" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="-43.942" y="143.51" size="1.778" layer="96" rot="R270"/>
+<instance part="R26" gate="G$1" x="-45.72" y="129.54" smashed="yes" rot="R270">
+<attribute name="NAME" x="-49.3014" y="130.81" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-43.942" y="130.81" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="SUPPLY20" gate="GND" x="-45.72" y="134.62" smashed="yes">
-<attribute name="VALUE" x="-47.625" y="131.445" size="1.778" layer="96"/>
+<instance part="SUPPLY20" gate="GND" x="-45.72" y="114.3" smashed="yes">
+<attribute name="VALUE" x="-47.625" y="111.125" size="1.778" layer="96"/>
 </instance>
 <instance part="L1" gate="G$1" x="-76.2" y="195.58" smashed="yes">
 <attribute name="NAME" x="-76.835" y="196.85" size="1.016" layer="95" rot="R90"/>
@@ -8903,6 +8904,10 @@ Passes up to 5.5V at 3.3V supply&lt;br&gt;
 <instance part="SJ8" gate="G$1" x="195.58" y="-63.5" smashed="yes">
 <attribute name="NAME" x="198.12" y="-63.119" size="1.778" layer="95"/>
 <attribute name="VALUE" x="198.12" y="-65.405" size="1.778" layer="96"/>
+</instance>
+<instance part="R29" gate="G$1" x="-45.72" y="142.24" smashed="yes" rot="R270">
+<attribute name="NAME" x="-49.3014" y="143.51" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-43.942" y="143.51" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -9099,13 +9104,14 @@ Passes up to 5.5V at 3.3V supply&lt;br&gt;
 <pinref part="R26" gate="G$1" pin="2"/>
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="-35.56" y1="149.86" x2="-35.56" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="137.16" x2="-45.72" y2="137.16" width="0.1524" layer="91"/>
-<junction x="-45.72" y="137.16"/>
+<wire x1="-35.56" y1="149.86" x2="-35.56" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="116.84" x2="-45.72" y2="116.84" width="0.1524" layer="91"/>
+<junction x="-45.72" y="116.84"/>
 <pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="-25.4" y1="149.86" x2="-25.4" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="137.16" x2="-35.56" y2="137.16" width="0.1524" layer="91"/>
-<junction x="-35.56" y="137.16"/>
+<wire x1="-25.4" y1="149.86" x2="-25.4" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="116.84" x2="-35.56" y2="116.84" width="0.1524" layer="91"/>
+<junction x="-35.56" y="116.84"/>
+<wire x1="-45.72" y1="116.84" x2="-45.72" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="10"/>
@@ -9779,14 +9785,12 @@ Passes up to 5.5V at 3.3V supply&lt;br&gt;
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="R25" gate="G$1" pin="2"/>
 <pinref part="R26" gate="G$1" pin="1"/>
-<wire x1="-45.72" y1="149.86" x2="-45.72" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="U6" gate="A" pin="FB"/>
-<wire x1="-83.82" y1="134.62" x2="-55.88" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="134.62" x2="-55.88" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="147.32" x2="-45.72" y2="147.32" width="0.1524" layer="91"/>
-<junction x="-45.72" y="147.32"/>
+<wire x1="-83.82" y1="134.62" x2="-45.72" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="R29" gate="G$1" pin="2"/>
+<wire x1="-45.72" y1="134.62" x2="-45.72" y2="137.16" width="0.1524" layer="91"/>
+<junction x="-45.72" y="134.62"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -10223,6 +10227,13 @@ Passes up to 5.5V at 3.3V supply&lt;br&gt;
 <pinref part="U$3" gate="G$1" pin="5"/>
 <wire x1="238.76" y1="73.66" x2="220.98" y2="73.66" width="0.1524" layer="91"/>
 <label x="220.98" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="R29" gate="G$1" pin="1"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="-45.72" y1="147.32" x2="-45.72" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
