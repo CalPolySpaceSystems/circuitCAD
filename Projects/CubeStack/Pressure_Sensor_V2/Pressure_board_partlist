@@ -1,0 +1,54 @@
+Partlist
+
+Exported from Pressure_Sensor_V2_schem.brd at 3/9/19 10:04 AM
+
+EAGLE Version 9.2.2 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package  Library     Position (mil)        Orientation
+
+C1       0.1u           C0805    rcl         (1600 1900)           R180
+C2       1u             C0805    rcl         (2000 1900)           R180
+C3       0.1u           C0805    rcl         (2100 1050)           R270
+C4       1u             C0805    rcl         (2200 1150)           R270
+C5       1u             C0805    rcl         (2000 2750)           R0
+C6       10u            C0805    rcl         (2055 2445)           R180
+C7       1u             C0805    rcl         (2055 2245)           R180
+C11      1u             C0805    rcl         (600 1050)            R180
+C12      0.1u           C0805    rcl         (500 1150)            R180
+C13      47p            C0805    rcl         (200 1850)            R180
+C14      1u             C0805    rcl         (1150 1300)           R90
+C15      0.1u           C0805    rcl         (1050 1350)           R90
+C16      47p            C0805    rcl         (550 1820)            R180
+C17      1u             C0805    rcl         (2050 1550)           R270
+C18      0.1u           C0805    rcl         (1800 1550)           R270
+C19      47p            C0805    rcl         (1100 1550)           R180
+C20      1u             C0805    rcl         (600 250)             R180
+C21      0.1u           C0805    rcl         (650 150)             R180
+C22      47p            C0805    rcl         (750 700)             R270
+C23      1u             C0805    rcl         (1650 500)            R90
+C24      0.1u           C0805    rcl         (1500 600)            R90
+C25      47p            C0805    rcl         (1025 700)            R180
+C26      1u             C0805    rcl         (2160 870)            R180
+C27      0.1u           C0805    rcl         (2110 760)            R180
+C28      47p            C0805    rcl         (1900 700)            R0
+JP1      PINHD-1X10     1X10-BIG adafruit    (1250 2500)           R0
+JP2      PINHD-1X10     1X10-BIG adafruit    (1250 2400)           R0
+JP3      PINHD-1X10     1X10-BIG adafruit    (1250 2300)           R0
+JP4      PINHD-1X10     1X10-BIG adafruit    (1250 2200)           R0
+R1       51k            R0805    rcl         (250 1950)            R0
+R2       51k            R0805    rcl         (625 1900)            R0
+R3       51k            R0805    rcl         (1050 1700)           R0
+R4       51k            R0805    rcl         (860 700)             R90
+R5       51k            R0805    rcl         (1100 800)            R0
+R6       51k            R0805    rcl         (1800 800)            R180
+U1                      VSSOP-10 CPSS_SENSOR (1050 2000)           R0
+U2                      VSSOP-10 CPSS_SENSOR (1450 900)            R0
+U3                      WLCSP    CPSS_IC     (2280 2645)           R0
+U5                      SSOP     CPSS_SENSOR (400 1300)            R90
+U6                      SSOP     CPSS_SENSOR (750 1300)            R90
+U7                      SSOP     CPSS_SENSOR (1500 1150)           R90
+U8                      SSOP     CPSS_SENSOR (150 650)             R0
+U9                      SSOP     CPSS_SENSOR (1200 150)            R90
+U10                     SSOP     CPSS_SENSOR (2050 150)            R90
